@@ -1,0 +1,75 @@
+bacno cano 關係 一對一？ 一對多？ 多對多？
+loctm?
+
+消費地幣別，是指消費者刷卡時選擇使用的貨幣，還是刷卡當地使用的貨幣（就是跟消費地國別一對一？
+MCC code意思
+
+交易類別是指刷卡購買的產品類別嗎？
+授權時間是指一個授權日期中的某個時間嗎？ 越小代表越早？
+
+
+分期交易註記 卻分期＝＝0
+
+
+比較train, test data的分佈
+
+feature engineering:
+day, time轉換
+日期轉換成1~7
+時間轉換成hr（小數一位）
+轉換成類別6~11,11~17,17~21,21~6
+
+一天內消費次數
+兩天內消費次數
+三天內消費次數
+一週內消費次數
+
+
+支付型態,消費國別,消費城市,狀態碼,交易型態,交易類別
+跟以前不一樣
+
+短期間大量消費
+
+
+異常偵測
+wiki
+https://zh.wikipedia.org/wiki/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B#cite_note-9
+
+http://www.cainiaoxueyuan.com/suanfa/7017.html
+https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e
+因為盜刷很可能都是outlier，一般的機器學習方法在outlier上表現會很差，因此可以用來解釋為什麼會train不好的原因
+https://medium.com/@cyeninesky3/oneclass-svm-%E7%95%B0%E5%B8%B8%E6%AA%A2%E6%B8%AC%E4%BB%BB%E5%8B%99-anomaly-detection-%E7%9A%84%E7%AE%97%E6%B3%95%E7%90%86%E8%A7%A3%E8%88%87%E5%AF%A6%E8%B8%90-cf5f0bbb01c0
+
+
+因為幾乎都是類別特徵，要轉換成one hot可能才能偵測（但維度過大）
+KNN(應該會跑太久)
+
+isolation tree
+https://zhuanlan.zhihu.com/p/25040651
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_isolation_forest.html
+https://towardsdatascience.com/outlier-detection-with-extended-isolation-forest-1e248a3fe97b
+
+oneclass svm
+https://scikit-learn.org/stable/auto_examples/svm/plot_oneclass.html
+
+Replicator NN
+https://togaware.com/papers/dawak02.pdf
+
+多次消費的使用者可以用RNN?
+one class kmeans?
+https://ai100-2.cupoy.com/mission/D57
+
+
+因為有時間先後順序的關係，拿後面時間train 前面時間validation是不好的，該如何切validation set
+有辦法用k-fold嗎？ 還是就切30天後面的？
+檢查train,validation,test的分佈差異
+
+待做：
+查看
+
+
+
+均值編碼 平滑化
+https://ai100-2.cupoy.com/mission/D23
+葉編碼
+https://ai100-2.cupoy.com/mission/D30
