@@ -1,29 +1,15 @@
-bacno cano 關係 一對一？ 一對多？ 多對多？
-loctm?
-
 消費地幣別，是指消費者刷卡時選擇使用的貨幣，還是刷卡當地使用的貨幣（就是跟消費地國別一對一？
 MCC code意思
-
 交易類別是指刷卡購買的產品類別嗎？
 授權時間是指一個授權日期中的某個時間嗎？ 越小代表越早？
 
-
 分期交易註記 卻分期＝＝0
-
-
-比較train, test data的分佈
-
-feature engineering:
-day, time轉換
-日期轉換成1~7
-時間轉換成hr（小數一位）
-轉換成類別6~11,11~17,17~21,21~6
+比較train, validation data, test data(feature)的分佈
 
 一天內消費次數
 兩天內消費次數
 三天內消費次數
 一週內消費次數
-
 
 支付型態,消費國別,消費城市,狀態碼,交易型態,交易類別
 跟以前不一樣
@@ -73,3 +59,16 @@ https://ai100-2.cupoy.com/mission/D57
 https://ai100-2.cupoy.com/mission/D23
 葉編碼
 https://ai100-2.cupoy.com/mission/D30
+
+
+Q:
+有多少比例test data上的歸戶是第一次出現？
+
+
+mchno
+acqic 
+mcc
+stocn 
+scity
+csmcu
+太多類別，只要是小於*的都歸類在同一類別？
