@@ -1,0 +1,10 @@
+特徵工程
+人工特徵-使用EDA.ipython觀察資料,可以多畫圖(順便玩玩matplotlib & pyechart),檢查FE1~4的結果是否正確
+模型特徵-Anomaly detection,lgb,xgb作為新特徵
+https://blog.csdn.net/anshuai_aw1/article/details/82983997
+
+模型尋找
+目前找到最好的是catboost,也嘗試果lgb,可以再試試logistic regression,random forest,knn,作為之後blending和stacking的素材,因為訓練時間可能比較久,建議提早開始試並儲存結果(train,valid,test三部份)
+
+
+

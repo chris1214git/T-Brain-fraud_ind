@@ -1,0 +1,157 @@
+Question:
+MCC code是什麼意思？
+交易類別是指刷卡購買的產品類別嗎？
+狀態碼是什麼意思？                                                                                                                                                                                                                                                                    
+
+Dirty data:
+分期交易註記=1,分期卻=0(刪掉)
+
+
+EDA:
+
+1.比較train, validation data, test data各個feature的分佈，看各個feature是否會隨時間不同而改變
+->見 function compare_distribution
+檢查差異,目測結果:
+txkey有一點差異，其他幾乎一樣
+
+2.比較train, validation data各個feature相對於fraud_ind的關係，看他們與fraud_ind的關係是否會隨時間改變，如果會就不適合做training feature
+->見 function analze_distribution
+檢查差異，目測結果:
+明顯差異,應該去除,或應該抽取更高層的穩定特徵(TODO)
+csmcu
+mcc
+loctm_hr2
+
+無法判讀:應該找出來並想辦法去除或找更高層特徵(TODO)
+很多＝＝
+
+3.比較normal, fraud data的各個feature分佈差異，找有問題的feature!
+結果:
+
+4.但這樣無法看出單一用戶在normal和fraud的關係，所以要另外印出檢查，看有fraud data的用戶，該資料特點在哪
+見 ## 以每個bacno來看fraud情況
+
+
+Feature Engineering:
+一天內消費次數
+兩天內消費次數
+三天內消費次數
+一週內消費次數
+
+
+異常偵測
+wiki
+https://zh.wikipedia.org/wiki/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B#cite_note-9
+
+http://www.cainiaoxueyuan.com/suanfa/7017.html
+https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e
+因為盜刷很可能都是outlier，一般的機器學習方法在outlier上表現會很差，因此可以用來解釋為什麼會train不好的原因
+https://medium.com/@cyeninesky3/oneclass-svm-%E7%95%B0%E5%B8%B8%E6%AA%A2%E6%B8%AC%E4%BB%BB%E5%8B%99-anomaly-detection-%E7%9A%84%E7%AE%97%E6%B3%95%E7%90%86%E8%A7%A3%E8%88%87%E5%AF%A6%E8%B8%90-cf5f0bbb01c0
+
+
+因為幾乎都是類別特徵，要轉換成one hot可能才能偵測（但維度過大）
+KNN(應該會跑太久)
+
+isolation tree
+https://zhuanlan.zhihu.com/p/25040651
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_isolation_forest.html
+https://towardsdatascience.com/outlier-detection-with-extended-isolation-forest-1e248a3fe97b
+
+oneclass svm
+https://scikit-learn.org/stable/auto_examples/svm/plot_oneclass.html
+
+Replicator NN
+https://togaware.com/papers/dawak02.pdf
+
+one class kmeans?
+https://ai100-2.cupoy.com/mission/D57
+
+多次消費的使用者可以用RNN?
+
+
+
+可以嘗試：
+
+均值編碼 平滑化
+https://ai100-2.cupoy.com/mission/D23
+葉編碼
+https://ai100-2.cupoy.com/mission/D30
+
+
+Q:
+有多少比例test data上的歸戶、特店代號、收單行代碼、Mcc、Country 是第一次出現？(done)
+
+
+
+
+
+
+理論上沒關係:
+delete_list = ['bacno','txkey','locdt','loctm','cano','iterm']
+
+直接觀察特徵跟預測值,顯著有關係:
+loctm,mchno,mcc,txkey,stocn,scity
+
+
+
+TODO:
+特徵工程,檢查feature是否是正確的
+研究catboost，看準確率會不會比較好
+train 6 test 3, train 5 test 4, train 4 test 5
+
+將Anomaly detection的結果作為特徵值(要盡量優化Anomaly的輸入)
+
+使用blending
+必須清楚標示所產生的submit file，寧可名稱長也要記好
+根據不同的training data分類？
+
+
+
+使用者相關特徵:(要處理比較久)
+
+1.對bacno
+
+交易量:
+平均每天幾筆交易(總共幾筆交易/120天))
+今天有幾筆交易
+今天交易是否超過平均的兩倍
+
+交易金額:
+取log(done)
+平均交易金額(幾何平均)(done)
+對交易金額做標準化
+
+stocn,scity,csmcu的眾數(done)
+消費該國家佔自己總消費國家的比例
+
+2.對cano
+
+交易日的 kurtosis,skewness(done)
+
+
+跟fraud相關:
+mchno,mcc,acqic做均值編碼(done)
+沒看過的當-1
+
+Leakage:
+最後一次使用該卡片的那一天
+最後一次使用該卡片的那次交易
+連續的使用某卡片且換了又連續使用的那一天
+TODO:嘗試再找出更多種這類特徵(結合mcc之類的)
+
+一個零接著連續相同的數目的刷卡（不小心沒刷過得？）
+
+
+連續且唯一的
+stscd==2(dnoe)
+ecfg==1(done)
+
+bin cut: mchno,acqic,mcc,stocn,scity,csmcu
+太多類別，只要是小於*的都歸類在同一類別？(done)
+將mchno,mcc,txkey,stocn,scity根據bacno數量編碼(done)
+將mchno,mcc,txkey,stocn,scity中多bacno的值留下，其餘分同一類
+把在train, validation上都重要的類別留下剩下的都歸同一類
+
+找不到特徵:
+flg_3dsmk,flbmk,ovrlt,iterm,insfg,etymd,contp
+
