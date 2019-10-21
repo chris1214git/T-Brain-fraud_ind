@@ -3,8 +3,25 @@
 模型特徵-Anomaly detection,lgb,xgb作為新特徵
 https://blog.csdn.net/anshuai_aw1/article/details/82983997
 
+EDA畫更好的圖,比較出EDA需要比較的三點
+
+1. 該特徵在train,valid,test上的分佈是否相同
+2. 該特徵在train,valid上相對於output的關係是否相同(用fraud_ind mean比較)
+3. 該特徵在fraud, normal data上表現的差異為何
+其中太多類別且在test上有很多新類別的特徵要想如何數值化判斷該特徵在以上三點的表現。
+
+檢查特徵是否寫對
+
 模型尋找
 目前找到最好的是catboost,也嘗試果lgb,可以再試試logistic regression,random forest,knn,作為之後blending和stacking的素材,因為訓練時間可能比較久,建議提早開始試並儲存結果(train,valid,test三部份)
 
 
+多:看readme,了解目前程式做了什麼,先熟悉EDA,了解目前手上的資料大致長什麼樣子,幫助檢查FE的正確性,合理性,效果(跑catboost),並嘗試其他種訓練模型,以及Anomaly detection
 
+Me:持續FE生產,並驗證其正確性,合理性,嘗試根據不同等級的bacno訓練不同模型並合併
+
+未來:
+上網找競賽相關靈感,有用到的網址放進readme,隨時用github更新
+
+
+模型目前不用急於調參,因為效果不會好多少,重點在製造並驗證FE的好壞。

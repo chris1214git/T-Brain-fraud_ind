@@ -9,7 +9,7 @@ data_path = '../data'
 
 random_seed = 2000
 
-all_data = pd.read_csv('../data/raw_data.csv')
+all_data = pd.read_csv('../data/preprocess/raw_data.csv')
 print(all_data.head())
 raw_col_num = all_data.shape[1]
 
@@ -90,5 +90,5 @@ all_data['bacno_ecfg_equal1'] = all_data['bacno_ecfg_equal1'].fillna(value=False
 
 # write file
 FE_data = all_data.iloc[:,raw_col_num:]
-FE_data.to_csv('../data/FE_data4.csv',index=False)
+FE_data.to_csv('../data/preprocess/FE_data4.csv',index=False)
 print('saving FE_data, shape:{}'.format(FE_data.shape))

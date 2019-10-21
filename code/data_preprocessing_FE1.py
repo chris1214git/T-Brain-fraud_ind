@@ -11,7 +11,7 @@ random_seed = 2000
 
 
 # In[2]:
-all_data = pd.read_csv('../data/raw_data.csv')
+all_data = pd.read_csv('../data/preprocess/raw_data.csv')
 print(all_data.head())
 print(all_data.shape)
 
@@ -205,5 +205,5 @@ for l in l_list:
 
 # write file
 FE_data = all_data.iloc[:,raw_col_num:]
-FE_data.to_csv('../data/FE_data1.csv',index=False)
+FE_data.to_csv('../data/preprocess/FE_data1.csv',index=False)
 print('saving FE_data, shape:{}'.format(FE_data.shape))

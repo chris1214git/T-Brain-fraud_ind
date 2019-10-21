@@ -5,7 +5,7 @@ import numpy as np
 import math
 
 # get_ipython().run_line_magic('matplotlib', 'inline')
-data_path = '../data'
+data_path = '../data/raw_data'
 
 random_seed = 2000
 
@@ -21,7 +21,7 @@ test_data = pd.read_csv(test_data_path, encoding = "big5")
 
 train_data_num = train_data.shape[0]
 test_data_txkey = test_data['txkey'].copy()
-np.save('../data/test_data_txkey',test_data_txkey.values)
+np.save('../data/preprocess/test_data_txkey',test_data_txkey.values)
 
 train_data = train_data.sort_values(by=['bacno','locdt','loctm']).reset_index(drop=True)
 test_data = test_data.sort_values(by=['bacno','locdt','loctm']).reset_index(drop=True)
@@ -56,6 +56,6 @@ print('Missing value testing data:\n',test_data.isna().sum()[test_data.isna().su
 all_data.flbmk = all_data.flbmk.fillna(value=all_data.flbmk.mean(skipna=True))
 all_data.flg_3dsmk = all_data.flg_3dsmk.fillna(value=all_data.flg_3dsmk.mean(skipna=True))
 
-all_data.to_csv('../data/raw_data.csv',index=False)
+all_data.to_csv('../data/preprocess/raw_data.csv',index=False)
 print('saving all_data, shape:{}'.format(all_data.shape))
 raw_col_num = all_data.shape[1]
