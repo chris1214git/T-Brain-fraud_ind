@@ -155,3 +155,9 @@ bin cut: mchno,acqic,mcc,stocn,scity,csmcu
 找不到特徵:
 flg_3dsmk,flbmk,ovrlt,iterm,insfg,etymd,contp
 
+分析使用者誤判的資料大多為哪些:
+
+使用者根據多少種cano和多少交易量來分類(以多少種cano來分)
+
+研究cano_lastlocdt2更複雜的條件（很接近黃金pattern)
+

@@ -22,38 +22,37 @@ raw_col_num = all_data.shape[1]
 ## 第一種轉法: bin cut,只留下數量最多的類別,將資料數少的類別都分成同一類,
 ## 第二轉種法: 根據fraud_ind的bacno數量,決定要留下哪些類別,剩下的分成同一類(要仔細觀察train和valid的關係,避免overfitting)
 
-th=15
-category_list = all_data['stocn'].value_counts()[:th].index
-all_data['stocn_bin'] = all_data['stocn']
-all_data[~all_data['stocn'].isin(category_list)]=-1
-# print(all_data['stocn'].value_counts()[:th])
+## some bug~~
+# th=15
+# category_list = all_data['stocn'].value_counts()[:th].index
+# all_data['stocn_bin'] = all_data['stocn']
+# all_data[~all_data['stocn'].isin(category_list)]=-1
+# # print(all_data['stocn'].value_counts()[:th])
 
-th=20
-category_list = all_data['scity'].value_counts()[:th].index
-all_data['scity_bin'] = all_data['scity']
-all_data[~all_data['scity'].isin(category_list)]=-1
-# print(all_data['scity'].value_counts()[:th])
+# th=20
+# category_list = all_data['scity'].value_counts()[:th].index
+# all_data['scity_bin'] = all_data['scity']
+# all_data[~all_data['scity'].isin(category_list)]=-1
+# # print(all_data['scity'].value_counts()[:th])
 
-th=10
-category_list = all_data['csmcu'].value_counts()[:th].index
-all_data['csmcu_bin'] = all_data['csmcu']
-all_data[~all_data['csmcu'].isin(category_list)]=-1
-# print(all_data['csmcu'].value_counts()[:th])
+# th=10
+# category_list = all_data['csmcu'].value_counts()[:th].index
+# all_data['csmcu_bin'] = all_data['csmcu']
+# all_data[~all_data['csmcu'].isin(category_list)]=-1
+# # print(all_data['csmcu'].value_counts()[:th])
 
-one_cut = all_data[all_data['locdt']<=120]['txkey'].max()/20
-all_data['txkey_bin'] = all_data['txkey']//one_cut
+# one_cut = all_data[all_data['locdt']<=120]['txkey'].max()/20
+# all_data['txkey_bin'] = all_data['txkey']//one_cut
 
-print(all_data.shape)
+# print(all_data.shape)
 
 #######################################
 mean_df = all_data.groupby(['bacno'])['cano'].nunique().reset_index()
-mean_df.columns = ['bacno', 'bacno_cano_not1']
-mean_df[mean_df['bacno_cano_not1']>1]['bacno_cano_not1']=0
-
+mean_df.columns = ['bacno', 'bacno_cano_nunique']
 all_data = pd.merge(all_data, mean_df, on='bacno', how='left')
 
 mean_df = all_data.groupby(['bacno'])['txkey'].nunique().reset_index()
-mean_df.columns = ['bacno', 'bacno_txkey_count']
+mean_df.columns = ['bacno', 'bacno_txkey_nunique']
 all_data = pd.merge(all_data, mean_df, on='bacno', how='left')
 
 ############### conam ################
@@ -187,9 +186,9 @@ mean_df = all_data[all_data['locdt']<=60].groupby(['acqic'])['fraud_ind'].mean()
 mean_df.columns = ['bacno','acqic_fraud_mean']
 all_data = pd.merge(all_data,mean_df,on='bacno',how='left')
 
-all_data['mchno_fraud_mean'].fillna(value=-1)
-all_data['mcc_fraud_mean'].fillna(value=-1)
-all_data['acqic_fraud_mean'].fillna(value=-1)
+all_data['mchno_fraud_mean'].fillna(value=-1,inplace=True)
+all_data['mcc_fraud_mean'].fillna(value=-1,inplace=True)
+all_data['acqic_fraud_mean'].fillna(value=-1,inplace=True)
 
 l_list=['mchno','acqic','mcc','stocn','scity','csmcu']
 for l in l_list:

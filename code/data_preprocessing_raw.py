@@ -56,6 +56,7 @@ print('Missing value testing data:\n',test_data.isna().sum()[test_data.isna().su
 all_data.flbmk = all_data.flbmk.fillna(value=all_data.flbmk.mean(skipna=True))
 all_data.flg_3dsmk = all_data.flg_3dsmk.fillna(value=all_data.flg_3dsmk.mean(skipna=True))
 
+print(all_data.index)
 all_data.to_csv('../data/preprocess/raw_data.csv',index=False)
 print('saving all_data, shape:{}'.format(all_data.shape))
 raw_col_num = all_data.shape[1]
