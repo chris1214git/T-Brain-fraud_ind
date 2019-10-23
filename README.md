@@ -32,9 +32,16 @@ https://github.com/microsoft/LightGBM/tree/master/examples/python-guide
 Kaggle:
 https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions?fbclid=IwAR0GXWSIn0YnoqLgNPud7pE2Nz1WbH4yAskm2_qYM7kZ_6fWbYERj22MAIs
 
+https://www.kaggle.com/c/ieee-fraud-detection/discussion/111321
+frequency encoding,切四種validation,permutation test將四次validation都沒有變好的特徵刪除
+
 Jupyter:
 markdown
 https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed
 
 Pyecharts:
 https://github.com/pyecharts/pyecharts
+
+異常偵測:
+
+

@@ -1,3 +1,3 @@
-submit_cat_FE_th0.37.csv
+submit_cat_th0.37_time10231952.csv
 delete_list:
 ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu', 'iterm', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_locdt_skew', 'bacno_locdt_kurt', 'cano_locdt_skew', 'cano_locdt_kurt', 'txkey', 'bacno_lastlocdt', 'cano_lastlocdt']

@@ -201,6 +201,10 @@ for l in l_list:
     tmp_df.columns = [l, '{}_cano_nunique'.format(l)]
     all_data = pd.merge(all_data,tmp_df, on=l, how='left') 
 
+for l in l_list:
+    tmp_df = all_data[l].value_counts().reset_index()
+    tmp_df.columns = [l, '{}_value_counts'.format(l)]
+    all_data = pd.merge(all_data,tmp_df, on=l, how='left') 
 
 # write file
 FE_data = all_data.iloc[:,raw_col_num:]
