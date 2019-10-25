@@ -1,8 +1,9 @@
 # T-Brain-fraud_ind
 
-官網:
+## 官網:
 https://tbrain.trendmicro.com.tw/Competitions/Details/10
 
+## 資料夾分類
 code:
 data_preprocess:資料預處理,特徵工程
 EDA:觀測檢查資料分佈,outlier,製作各種表格找資料間的pattern,特徵工程靈感
@@ -16,7 +17,7 @@ prediction:
     log.txt:描述submit_*.csv
 
 
-參考資料:
+## 參考資料:
 
 銀行刷卡原理:
 https://progressbar.tw/posts/75
@@ -44,4 +45,11 @@ https://github.com/pyecharts/pyecharts
 
 異常偵測:
 
+## 程式整理
+Readme markdown:
+https://github.com/othree/markdown-syntax-zhtw
+https://ithelp.ithome.com.tw/articles/10203758
+
+argparse:
+https://blog.csdn.net/lanzheng_1113/article/details/77574446
 

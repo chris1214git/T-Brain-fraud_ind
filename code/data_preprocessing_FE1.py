@@ -203,7 +203,7 @@ for l in l_list:
 
 for l in l_list:
     tmp_df = all_data[l].value_counts().reset_index()
-    tmp_df.columns = [l, '{}_value_counts'.format(l)]
+    tmp_df.columns = [l, '{}_value_counts_all'.format(l)]
     all_data = pd.merge(all_data,tmp_df, on=l, how='left') 
 
 # write file

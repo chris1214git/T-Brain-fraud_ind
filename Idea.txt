@@ -53,18 +53,18 @@ https://ai100-2.cupoy.com/mission/D30
 
 ME TODO:
 
-研究cano_lastlocdt2更複雜的條件（很接近黃金pattern)
+permutation select feature(done)
 
 將使用者分類來訓練模型:
 1.根據cano的個數分類
 2.根據txkey的個數分類
 3.根據stocn的眾數分類
 
+研究cano_lastlocdt2更複雜的條件（很接近黃金pattern)
+
 將Anomaly detection的結果作為特徵值(要盡量優化Anomaly的輸入)
 
 使用blending
-
-
 
 
 Help:
@@ -101,6 +101,6 @@ EDA:
 
 分析模型誤判的資料大多為哪些:
 
-
+blending
 
 

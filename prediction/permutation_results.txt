@@ -1,0 +1,42 @@
+submit_cat_time1025115.csv
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu', 'iterm', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_locdt_skew', 'bacno_locdt_kurt', 'cano_locdt_skew', 'cano_locdt_kurt', 'txkey', 'bacno_lastlocdt', 'cano_lastlocdt']
+delete_col1:
+['cano_scity_ismode', 'insfg', 'bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_hcefg_nunique', 'bacno_ismax_conam', 'bacno_stscd_equal2', 'ovrlt', 'flbmk', 'cano_csmcu_ismode', 'bacno_stscd_nunique', 'bacno_ecfg_equal1', 'bacno_scity_ismode', 'bacno_csmcu_ismode']
+delete_col2:
+['cano_csmcu_mode', 'bacno_ismin_conam', 'bacno_ismax_conam', 'bacno_stscd_equal2', 'hcefg', 'cano_stocn_ismode', 'bacno_hcefg_nunique', 'flbmk', 'bacno_csmcu_ismode', 'ovrlt', 'cano_csmcu_ismode', 'bacno_stocn_ismode', 'bacno_ecfg_equal1', 'bacno_scity_ismode']
+delete_col3:
+['cano_csmcu_ismode', 'bacno_ismax_conam', 'cano_stocn_ismode', 'ovrlt', 'bacno_stscd_equal2', 'flbmk', 'bacno_ecfg_equal1', 'bacno_scity_ismode', 'bacno_stocn_ismode', 'bacno_ismin_conam', 'bacno_csmcu_ismode']
+Inner delete_col:
+['bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_ismax_conam', 'bacno_stscd_equal2', 'ovrlt', 'flbmk', 'cano_csmcu_ismode', 'bacno_ecfg_equal1', 'bacno_scity_ismode', 'bacno_csmcu_ismode']
+
+
+submit_cat_time1025_1348.csv
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu']
+delete_col1:
+['insfg', 'cano_only_consecutive_stscd2', 'bacno_stscd_equal2', 'bacno_ismax_conam', 'iterm', 'cano_scity_ismode', 'bacno_stscd_nunique', 'ovrlt', 'flbmk', 'bacno_ecfg_equal1', 'bacno_ismin_conam', 'bacno_scity_ismode', 'bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_csmcu_ismode', 'cano_csmcu_ismode']
+delete_col2:
+['cano_csmcu_mode', 'cano_only_consecutive_stscd2', 'bacno_csmcu_mode', 'bacno_stscd_equal2', 'cano_scity_ismode', 'bacno_ismax_conam', 'insfg', 'cano_stocn_ismode', 'flbmk', 'ovrlt', 'bacno_hcefg_nunique', 'bacno_ecfg_equal1', 'iterm', 'bacno_stocn_ismode', 'bacno_scity_ismode', 'bacno_ismin_conam', 'bacno_csmcu_ismode']
+delete_col3:
+['bacno_etymd_nunique', 'cano_csmcu_mode', 'cano_stocn_ismode', 'scity_cano_nunique', 'bacno_stscd_nunique', 'bacno_stscd_equal2', 'flbmk', 'bacno_csmcu_mode', 'ovrlt', 'cano_scity_ismode', 'contp', 'bacno_hcefg_nunique', 'hcefg', 'bacno_ismax_conam', 'cano_csmcu_ismode', 'bacno_ecfg_equal1', 'insfg', 'bacno_stocn_ismode', 'bacno_scity_ismode', 'bacno_ismin_conam', 'bacno_csmcu_ismode']
+Inner delete_col:
+['insfg', 'bacno_stscd_equal2', 'bacno_ismax_conam', 'cano_scity_ismode', 'ovrlt', 'flbmk', 'bacno_ecfg_equal1', 'bacno_ismin_conam', 'bacno_scity_ismode', 'bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_csmcu_ismode']
+
+
+submit_cat_time1025_1359.csv
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu']
+delete_col1:
+['insfg', 'cano_only_consecutive_stscd2', 'bacno_stscd_equal2', 'bacno_ismax_conam', 'iterm', 'cano_scity_ismode', 'bacno_stscd_nunique', 'ovrlt', 'flbmk', 'bacno_ecfg_equal1', 'bacno_ismin_conam', 'bacno_scity_ismode', 'bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_csmcu_ismode', 'cano_csmcu_ismode']
+delete_col2:
+['cano_csmcu_mode', 'cano_only_consecutive_stscd2', 'bacno_csmcu_mode', 'bacno_stscd_equal2', 'cano_scity_ismode', 'bacno_ismax_conam', 'insfg', 'cano_stocn_ismode', 'flbmk', 'ovrlt', 'bacno_hcefg_nunique', 'bacno_ecfg_equal1', 'iterm', 'bacno_stocn_ismode', 'bacno_scity_ismode', 'bacno_ismin_conam', 'bacno_csmcu_ismode']
+delete_col3:
+['bacno_etymd_nunique', 'cano_csmcu_mode', 'cano_stocn_ismode', 'scity_cano_nunique', 'bacno_stscd_nunique', 'bacno_stscd_equal2', 'flbmk', 'bacno_csmcu_mode', 'ovrlt', 'cano_scity_ismode', 'contp', 'bacno_hcefg_nunique', 'hcefg', 'bacno_ismax_conam', 'cano_csmcu_ismode', 'bacno_ecfg_equal1', 'insfg', 'bacno_stocn_ismode', 'bacno_scity_ismode', 'bacno_ismin_conam', 'bacno_csmcu_ismode']
+Inner delete_col:
+['insfg', 'bacno_stscd_equal2', 'bacno_ismax_conam', 'cano_scity_ismode', 'ovrlt', 'flbmk', 'bacno_ecfg_equal1', 'bacno_ismin_conam', 'bacno_scity_ismode', 'bacno_stocn_ismode', 'cano_stocn_ismode', 'bacno_csmcu_ismode']
+
+
