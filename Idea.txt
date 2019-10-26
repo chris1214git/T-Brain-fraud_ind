@@ -53,46 +53,20 @@ https://ai100-2.cupoy.com/mission/D30
 
 ME TODO:
 
-permutation select feature(done)
-
 將使用者分類來訓練模型:
 1.根據cano的個數分類
 2.根據txkey的個數分類
 3.根據stocn的眾數分類
 
 研究cano_lastlocdt2更複雜的條件（很接近黃金pattern)
-
-將Anomaly detection的結果作為特徵值(要盡量優化Anomaly的輸入)
-
-使用blending
+使用不同的model train,fine tune
 
 
 Help:
 特徵工程:
 --------------------------------------------------------------
-使用者(groupby bacno)
-一天內消費次數
-兩天內消費次數
-三天內消費次數
-一週內消費次數
-距離上次刷卡的時間(日期)
-距離上次刷卡的時間(時間)
-更換使用卡片的次數
 
-交易量
-平均每天幾筆交易(總共幾筆交易/120天))
-今天有幾筆交易
-今天交易次數是否超過平均的兩倍
-
-交易金額:
-對交易金額做標準化
-
-消費該國家佔自己總消費國家的比例
 --------------------------------------------------------------
-將mchno,acqic,mcc,stocn,scity,csmcu編碼
-bin cut，太多類別，只要是小於th的都歸類在同一類別
-將mchno,mcc,txkey,stocn,scity根據bacno數量編碼(done)
-將mchno,mcc,txkey,stocn,scity中多bacno的值留下，其餘分同一類
 
 EDA:
 檢查哪些特徵在test 上明顯多過train
@@ -100,7 +74,4 @@ EDA:
 並盡量畫圖去分析這個特徵是好是壞
 
 分析模型誤判的資料大多為哪些:
-
-blending
-
 

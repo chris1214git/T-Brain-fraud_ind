@@ -3,6 +3,8 @@
     "data_list_FE":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data3.csv"],
     "data_list_FE_AN":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data3.csv",
                             "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv"],
+    "data_list_FE_AN2":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data3.csv","FE_data4.csv","FE_data5.csv",
+                            "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv","svm_feature"],
 
     "delete_list_raw":["bacno","locdt","loctm","cano","fraud_ind"],
     
@@ -14,7 +16,7 @@
     
     "delete_list_overfit3":["bacno","locdt","loctm","cano","fraud_ind","mchno_fraud_mean","mcc_fraud_mean","acqic_fraud_mean",
                     "bacno_lastlocdt","cano_lastlocdt","mchno","acqic","mcc","stocn","scity","csmcu",
-                    "bacno_locdt_skew","bacno_locdt_kurt","cano_locdt_skew","cano_locdt_kurt"]
+                    "bacno_locdt_skew","bacno_locdt_kurt","cano_locdt_skew","cano_locdt_kurt"],
     
     "delete_list_overfit4":["bacno","locdt","loctm","cano","fraud_ind","mchno_fraud_mean","mcc_fraud_mean","acqic_fraud_mean",
                     "bacno_lastlocdt","cano_lastlocdt","mchno","acqic","mcc","stocn","scity","csmcu",

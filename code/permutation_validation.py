@@ -47,6 +47,7 @@ param_cat={
     'scale_pos_weight':1,
     'target_border':0.5,
     'random_seed':random_seed,
+    'thread_count':1,
     'verbose':True    
 }
 
@@ -196,10 +197,11 @@ def main():
     submit_file_name='submit_cat_time{}_{}.csv'.format(t[:4],t[4:])
     with open('../prediction/log.txt','a') as f:
         print('{}'.format(submit_file_name),file=f)
-        print('data list',data_list,file=f)
-        print('delete_list:\n{}'.format(delete_list),file=f)
-        print('parameter:\n{}'.format(param_cat),file=f)
+        print('data list',sys.argv[1],file=f)
+        print('delete_list:',sys.argv[2],file=f)
         print('th:',th,file=f)
+        print('iteration:',iteration,file=f)
+        print('l2_leaf_reg:',l2_leaf_reg,file=f)
         print('F1_score:',F1_score1,F1_score2,F1_score3,file=f)
         print('average F1_score:', (F1_score1+F1_score2+F1_score3)/3,file=f)
         print('\n',file=f)
@@ -231,10 +233,11 @@ def main():
 
     with open('../prediction/log.txt','a') as f:
         print('{} permutation'.format(submit_file_name),file=f)
-        print('data list',data_list,file=f)
-        print('delete_list:\n{}'.format(delete_list),file=f)
-        print('parameter:\n{}'.format(param_cat),file=f)
+        print('data list',sys.argv[1],file=f)
+        print('delete_list:',sys.argv[2],file=f)
         print('th:',th,file=f)
+        print('iteration:',iteration,file=f)
+        print('l2_leaf_reg:',l2_leaf_reg,file=f)
         print('F1_score:',F1_score1,F1_score2,F1_score3,file=f)
         print('average F1_score:', (F1_score1+F1_score2+F1_score3)/3,file=f)
         print('\n',file=f)

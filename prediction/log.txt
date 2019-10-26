@@ -30,15 +30,36 @@ th: 0.37
 F1_score: 0.5763464741810105 0.59610235975344 0.5988048974133968
 average F1_score: 0.5904179104492825
 
-
-submit_cat_time1025_1359.csv
+submit_cat_time1025_1348.csv permutation
 data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv']
 delete_list:
 ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu']
 parameter:
-{'verbose': True, 'scale_pos_weight': 1, 'depth': 6, 'one_hot_max_size': 300, 'iterations': 2000, 'learning_rate': 0.1, 'eval_metric': 'F1', 'l2_leaf_reg': 3, 'loss_function': 'Logloss', 'random_seed': 20, 'target_border': 0.5, 'rsm': 1, 'bagging_temperature': 1}
+{'l2_leaf_reg': 3, 'verbose': True, 'rsm': 1, 'bagging_temperature': 1, 'depth': 6, 'target_border': 0.5, 'one_hot_max_size': 300, 'learning_rate': 0.1, 'random_seed': 20, 'scale_pos_weight': 1, 'loss_function': 'Logloss', 'iterations': 2000, 'eval_metric': 'F1'}
 th: 0.37
-F1_score: 0.5763464741810105 0.59610235975344 0.5988048974133968
-average F1_score: 0.5904179104492825
+F1_score: 0.5605977365124711 0.5979241319658964 0.590931574608409
+average F1_score: 0.5831511476955922
+
+
+submit_cat_time1025_1550.csv
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu', 'bacno_locdt_skew', 'bacno_locdt_kurt', 'cano_locdt_skew', 'cano_locdt_kurt']
+parameter:
+{'loss_function': 'Logloss', 'depth': 6, 'eval_metric': 'F1', 'learning_rate': 0.1, 'random_seed': 20, 'one_hot_max_size': 300, 'target_border': 0.5, 'verbose': True, 'rsm': 1, 'bagging_temperature': 1, 'l2_leaf_reg': 3, 'iterations': 2000, 'scale_pos_weight': 1}
+th: 0.37
+F1_score: 0.5547090648117479 0.5940146809712028 0.5877793566722646
+average F1_score: 0.5788343674850718
+
+
+submit_cat_time1025_1550.csv permutation
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data3.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu', 'bacno_locdt_skew', 'bacno_locdt_kurt', 'cano_locdt_skew', 'cano_locdt_kurt']
+parameter:
+{'loss_function': 'Logloss', 'depth': 6, 'eval_metric': 'F1', 'learning_rate': 0.1, 'random_seed': 20, 'one_hot_max_size': 300, 'target_border': 0.5, 'verbose': True, 'rsm': 1, 'bagging_temperature': 1, 'l2_leaf_reg': 3, 'iterations': 2000, 'scale_pos_weight': 1}
+th: 0.37
+F1_score: 0.5774928145036481 0.5926158089387575 0.5981648199445982
+average F1_score: 0.5894244811290013
 
 
