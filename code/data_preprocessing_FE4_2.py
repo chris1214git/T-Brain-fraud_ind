@@ -14,7 +14,7 @@ print(all_data.head())
 raw_col_num = all_data.shape[1]
 
 # 兩天後的消費次數
-all_data['bacno_2day_count']=0
+all_data['bacno_2day_after_count']=0
 for i in all_data.index:
     if i%500000==0:
         print(i)
@@ -22,7 +22,7 @@ for i in all_data.index:
                                                  (all_data['locdt']<all_data.at[i,'locdt']+2) &
                                                  (all_data['locdt']>all_data.at[i,'locdt'])].shape[0]
 # 三天後的消費次數
-all_data['bacno_3day_count']=0
+all_data['bacno_2day_after_count']=0
 for i in all_data.index:
     if i%500000==0:
         print(i)
@@ -30,7 +30,7 @@ for i in all_data.index:
                                                  (all_data['locdt']<all_data.at[i,'locdt']+3) &
                                                  (all_data['locdt']>all_data.at[i,'locdt'])].shape[0]
 # 七天後的消費次數
-all_data['bacno_7day_count']=0
+all_data['bacno_2day_after_count']=0
 for i in all_data.index:
     if i%500000==0:
         print(i)

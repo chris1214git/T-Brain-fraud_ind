@@ -42,7 +42,7 @@ for b in bacno_list:
     all_data.loc[all_data['bacno']==b,'bacno_loctm_diff']=all_data.loc[all_data['bacno']==b,'loctm'].diff().fillna(value=-1)
 
 all_data.loc[all_data['bacno_locdt_diff']!=0,'bacno_loctm_diff'] = -1
-
+all_data['bacno_loctm_diff'] = all_data['bacno_loctm_diff']
 
 # write file
 FE_data = all_data.iloc[:,raw_col_num:]
