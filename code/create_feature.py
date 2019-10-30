@@ -10,6 +10,7 @@ from sklearn.decomposition import PCA
 from sklearn.ensemble import IsolationForest
 from sklearn.cluster import KMeans
 from sklearn import svm
+from sklearn.model_selection import train_test_split
 
 import time
 import csv
@@ -91,7 +92,6 @@ def get_dummy(x,category_list):
     return pd.get_dummies(x)
 
 def PCA_feature(x,n=2):
-    x
     stdsc = StandardScaler() 
     x = stdsc.fit_transform(x)
   
@@ -122,8 +122,15 @@ def Kmeans_all_feature(x,n=1):
     return distance
 
 def one_class_svm(x,kernel):
+    stdsc = StandardScaler() 
+    x = stdsc.fit_transform(x)
+    
+    x_index = np.random.choice(x.shape[0],x.shape[0]//10)
+    x2 = x[x_index]
+    print(x2.shape)
+    
     clf = svm.OneClassSVM(nu=0.1, kernel=kernel, gamma='scale',verbose=True, random_state=random_seed)
-    clf.fit(x)    
+    clf.fit(x2)
     x3 = clf.score_samples(x)
     print(x3.shape)
     return x3
@@ -186,21 +193,20 @@ def main():
 #     kmeans_feature.to_csv('../data/preprocess/kmeans_feature.csv',index=False)
     
     print('oneclass svm')
-    print('rbf')
-    svm_rbf = one_class_svm(all_data.drop(columns=delete_list),'rbf')
-    print('linear')
-    svm_linear = one_class_svm(all_data.drop(columns=delete_list),'linear')
+#     print('rbf')
+#     svm_rbf = one_class_svm(all_data.drop(columns=delete_list),'rbf')
+#     print('linear')
+#     svm_linear = one_class_svm(all_data.drop(columns=delete_list),'linear')
     print('poly')
     svm_poly = one_class_svm(all_data.drop(columns=delete_list),'poly')
-    svm_rbf = pd.DataFrame(svm_rbf,columns=['svm_rbf'])
-    svm_linear = pd.DataFrame(svm_linear,columns=['svm_linear'])
+    
+#     svm_rbf = pd.DataFrame(svm_rbf,columns=['svm_rbf'])
+#     svm_linear = pd.DataFrame(svm_linear,columns=['svm_linear'])
     svm_poly = pd.DataFrame(svm_poly,columns=['svm_poly'])
     
-    svm_feature = pd.concat([svm_rbf,svm_linear,svm_poly],axis=1)
-    svm_feature.to_csv('../data/preprocess/svm_feature.csv',index=False)
+#     svm_feature = pd.concat([svm_rbf,svm_linear,svm_poly],axis=1)
+    svm_poly.to_csv('../data/preprocess/svm_poly_feature.csv',index=False)
     
-    # np.save('isolationtree_bacno_feature.npy',isolationtree_bacno_feature)
-    # np.save('kmeans_bacno_feature.npy',kmeans_bacno_feature)
     
     
 if __name__ == '__main__':

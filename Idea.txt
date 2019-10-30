@@ -6,29 +6,6 @@ Dirty data(outlier):
 分期交易註記=1,分期卻=0(刪掉)
 
 
-EDA:
-
-1.比較train, validation data, test data各個feature的分佈，看各個feature是否會隨時間不同而改變
-->見 function compare_distribution
-檢查差異,目測結果:
-txkey有一點差異，其他幾乎一樣
-
-2.比較train, validation data各個feature相對於fraud_ind的關係，看他們與fraud_ind的關係是否會隨時間改變，如果會就不適合做training feature
-->見 function analze_distribution
-檢查差異，目測結果:
-明顯差異,應該去除,或應該抽取更高層的穩定特徵(TODO)
-csmcu
-mcc
-loctm_hr2
-
-無法判讀:應該找出來並想辦法去除或找更高層特徵(TODO)
-很多＝＝
-
-3.比較normal, fraud data的各個feature分佈差異，找有問題的feature!
-結果:
-
-4.但這樣無法看出單一用戶在normal和fraud的關係，所以要另外印出檢查，看有fraud data的用戶，該資料特點在哪
-見 ## 以每個bacno來看fraud情況
 
 
 特徵工程:
@@ -38,40 +15,35 @@ loctm,mchno,mcc,txkey,stocn,scity
 找不到特徵工程的方法（觀察不出有什麼特別）:
 flg_3dsmk,flbmk,ovrlt,iterm,insfg,etymd,contp
 
-Leakage:
-最後一次使用該卡片的那一天
-最後一次使用該卡片的那次交易
-連續的使用某卡片且換了又連續使用的那一天
-TODO:嘗試再找出更多種這類特徵(結合mcc之類的)
-一個零接著連續相同的數目的刷卡（不小心沒刷過得？）
-
-均值編碼 平滑化
-https://ai100-2.cupoy.com/mission/D23
-葉編碼
-https://ai100-2.cupoy.com/mission/D30
-
 
 ME TODO:
+學習使用各種套件、Linux工具
+看blog找data science想法
+寫readme
+
+
+Help:
+特徵工程:
+--------------------------------------------------------------
+依照使用者將cano順序編碼?
+
+
+
+
+--------------------------------------------------------------
 
 將使用者分類來訓練模型:
 1.根據cano的個數分類
 2.根據txkey的個數分類
 3.根據stocn的眾數分類
 
-研究cano_lastlocdt2更複雜的條件（很接近黃金pattern)
-使用不同的model train,fine tune
-
-
-Help:
-特徵工程:
---------------------------------------------------------------
-
---------------------------------------------------------------
+fine tune
 
 EDA:
 檢查哪些特徵在test 上明顯多過train
 就用上面講的四種方式檢查
 並盡量畫圖去分析這個特徵是好是壞
 
-分析模型誤判的資料大多為哪些:
+嘗試刪減一些EDA有問題的feature看結果會不會變好
 
+分析模型誤判的資料大多為哪些

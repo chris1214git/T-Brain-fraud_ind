@@ -62,4 +62,32 @@ th: 0.37
 F1_score: 0.5774928145036481 0.5926158089387575 0.5981648199445982
 average F1_score: 0.5894244811290013
 
+submit_cat_time1027_2254.csv
+data list data_list_FE_AN2
+delete_list: delete_list_overfit1
+th: 0.37
+iteration: 2000
+l2_leaf_reg: 3.0
+F1_score: 0.5973684210526315 0.6210695716761574 0.6225479988338678
+average F1_score: 0.6136619971875522
+
+submit_cat_time1028_33.csv
+data list data_list_FE_AN2
+delete_list: delete_list_raw
+th: 0.37
+iteration: 2000
+l2_leaf_reg: 3.0
+F1_score: 0.6129487696651876 0.6254170813089037 0.6311096959082948
+average F1_score: 0.623158515627462
+
+
+submit_cat_time1028_1014.csv
+data list data_list_FE_AN2
+delete_list: delete_list_overfit1
+th: 0.37
+iteration: 2000
+l2_leaf_reg: 5.0
+F1_score: 0.5897717295873574 0.6222959685349067 0.6208328038293726
+average F1_score: 0.6109668339838789
+
 

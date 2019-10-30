@@ -38,7 +38,7 @@ param_cat={
     
     'iterations':iteration,
     'learning_rate':0.1,
-    'l2_leaf_reg':3,
+    'l2_leaf_reg':l2_leaf_reg,
     'bagging_temperature':1,
     
     'depth':6,
@@ -121,8 +121,8 @@ def train_model_validation(X_train1, y_train1, X_test1, y_test1, th, categorical
     train_pool=Pool(X_test1, y_test1, cat_features=categorical_features_indices)
     feature_importances = model.get_feature_importance(train_pool)
     feature_names = X_test1.columns
+    print('\nFeature importance')
     for score, name in sorted(zip(feature_importances, feature_names), reverse=True):
-        print('\nFeature importance')
         print('{}: {}'.format(name, score))
 
     y_test1_pred = model.predict_proba(X_test1,verbose=True)[:,1]
@@ -152,21 +152,21 @@ def train_model_all(X_train_all,y_train_all,X_test_all,test_data_txkey,th,catego
     )
     y_test_pred_cat = model.predict_proba(X_test_all)[:,1]
 
-    y_test_pred_cat[y_test_pred_cat>th]=1
-    y_test_pred_cat[y_test_pred_cat<=th]=0
+    for th in [0.35,0.37,0.39]:
+        y_test_pred_cat2 = y_test_pred_cat.copy()
+        y_test_pred_cat2[y_test_pred_cat2>th]=1
+        y_test_pred_cat2[y_test_pred_cat2<=th]=0
+        # ## write csv
+        result = y_test_pred_cat2
 
+        print('{}: prediction positive ratio'.format(result.sum()/result.shape[0]))
+        print('{}: training positive ratio'.format(y_train_all.sum()/y_train_all.shape[0]))
 
-    # ## write csv
-    result = y_test_pred_cat
-
-    print('{}: prediction positive ratio'.format(result.sum()/result.shape[0]))
-    print('{}: training positive ratio'.format(y_train_all.sum()/y_train_all.shape[0]))
-
-    with open('../prediction/submit/{}'.format(submit_file_name),'w') as f:
-        writer = csv.writer(f)
-        writer.writerow(['txkey','fraud_ind'])
-        for i in range(result.shape[0]):
-            writer.writerow([test_data_txkey[i], result[i]])
+        with open('../prediction/submit/{}_th{}.csv'.format(submit_file_name,int(th*100)),'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(['txkey','fraud_ind'])
+            for i in range(result.shape[0]):
+                writer.writerow([test_data_txkey[i], result[i]])
 
 # In[34]:
 
@@ -176,13 +176,13 @@ def permutation_test(model,X_test1,y_test1,categorical_features_indices):
     feature_names = X_test1.columns
     delete_col1 = []
     for score, name in sorted(zip(feature_importances, feature_names), reverse=True):
-        print('{}: {}'.format(name, score))
+#         print('{}: {}'.format(name, score))
         if score<0.1:
             delete_col1.append(name)
     return delete_col1
 
 def main():
-
+    submit_file_name='submit_cat_time{}_{}.csv'.format(t[:4],t[4:])
     all_data = load_data(data_list)
     all_data[category_list]=all_data[category_list].astype('category')
 
@@ -212,7 +212,6 @@ def main():
         np.save('../prediction/validation/{}_X_test_{}'.format(submit_file_name,i+1),X_test_pred)
         
         
-    submit_file_name='submit_cat_time{}_{}.csv'.format(t[:4],t[4:])
     with open('../prediction/log.txt','a') as f:
         print('{}'.format(submit_file_name),file=f)
         print('data list',sys.argv[1],file=f)
