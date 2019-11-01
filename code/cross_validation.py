@@ -31,7 +31,9 @@ t_now = time.localtime( time.time() )
 t = str(t_now.tm_mon)+str(t_now.tm_mday)+str(t_now.tm_hour)+str(t_now.tm_min)
 print('Now:',t)
 
-category_list=['csmcu','hcefg','stscd','scity','stocn','mcc','acqic','mchno','etymd','contp']
+category_list=['csmcu','hcefg','stscd','scity','stocn','mcc','acqic','mchno','etymd','contp','locdt_week']
+category_list=[]
+
 param_cat={
     'loss_function':'Logloss',
     'eval_metric':'F1',
@@ -71,37 +73,33 @@ def load_data(data_list):
     print(all_data_numsum[all_data_numsum>0])
     return all_data
 
-def parse_validation(all_data,delete_list):
-    X_train1 = all_data[all_data['locdt']<=60].drop(columns=delete_list)
-    y_train1 = all_data[all_data['locdt']<=60]['fraud_ind']
-    X_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)].drop(columns=delete_list)
-    y_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)]['fraud_ind']
-
-    X_train2 = all_data[all_data['locdt']<=45].drop(columns=delete_list)
-    y_train2 = all_data[all_data['locdt']<=45]['fraud_ind']
-    X_test2 = all_data[(all_data['locdt']>45) & (all_data['locdt']<=90)].drop(columns=delete_list)
-    y_test2 = all_data[(all_data['locdt']>45) & (all_data['locdt']<=90)]['fraud_ind']
-
-    X_train3 = all_data[all_data['locdt']<=30].drop(columns=delete_list)
-    y_train3 = all_data[all_data['locdt']<=30]['fraud_ind']
-    X_test3 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)].drop(columns=delete_list)
-    y_test3 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)]['fraud_ind']
-
-    X_train_all = all_data[all_data['locdt']<=90].drop(columns=delete_list) 
-    y_train_all = all_data[all_data['locdt']<=90]['fraud_ind'] 
-    X_test_all = all_data[all_data['locdt']>90].drop(columns=delete_list) 
-    # y_test_all = all_data[all_data['locdt']>90]['fraud_ind'] 
-
+def parse_validation(all_data,i,delete_list):
     train_data_txkey = all_data[all_data['locdt']<=90]['txkey'].copy().values
     test_data_txkey = all_data[all_data['locdt']>90]['txkey'].copy().values
-    
-    X_train = [X_train1,X_train2,X_train3,X_train_all]
-    X_test = [X_test1,X_test2,X_test3,X_test_all]
-    y_train = [y_train1,y_train2,y_train3,y_train_all]
-    y_test = [y_test1,y_test2,y_test3]
-    
-    return X_train,y_train,X_test,y_test,train_data_txkey,test_data_txkey
 
+    if i==0:
+        X_train = all_data[all_data['locdt']<=60].drop(columns=delete_list)
+        y_train = all_data[all_data['locdt']<=60]['fraud_ind']
+        X_test = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)].drop(columns=delete_list)
+        y_test = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)]['fraud_ind']
+    elif i==1:
+        X_train = all_data[all_data['locdt']<=45].drop(columns=delete_list)
+        y_train = all_data[all_data['locdt']<=45]['fraud_ind']
+        X_test = all_data[(all_data['locdt']>45) & (all_data['locdt']<=90)].drop(columns=delete_list)
+        y_test = all_data[(all_data['locdt']>45) & (all_data['locdt']<=90)]['fraud_ind']
+    elif i==2:
+        X_train = all_data[all_data['locdt']<=30].drop(columns=delete_list)
+        y_train = all_data[all_data['locdt']<=30]['fraud_ind']
+        X_test = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)].drop(columns=delete_list)
+        y_test = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)]['fraud_ind']
+    elif i==3:
+        X_train = all_data[all_data['locdt']<=90].drop(columns=delete_list)
+        y_train = all_data[all_data['locdt']<=90]['fraud_ind'] 
+        X_test = all_data[all_data['locdt']>90] .drop(columns=delete_list)
+        y_test = all_data[all_data['locdt']>90]['fraud_ind'] 
+
+    return X_train,y_train,X_test,y_test,train_data_txkey,test_data_txkey
+    
 
 def train_model_validation(X_train1, y_train1, X_test1, y_test1, th, categorical_features_indices,param_cat):
     model = CatBoostClassifier(**param_cat)
@@ -184,26 +182,24 @@ def permutation_test(model,X_test1,y_test1,categorical_features_indices):
 def main():
     submit_file_name='submit_cat_time{}_{}.csv'.format(t[:4],t[4:])
     all_data = load_data(data_list)
-    all_data[category_list]=all_data[category_list].astype('category')
-
-    X_train,y_train,X_test,y_test,train_data_txkey,test_data_txkey=parse_validation(all_data,delete_list)
-
-    # Train on catboost
-    categorical_features_indices = np.where(X_train[0].columns.isin(category_list))[0]
-    print(X_train[0].dtypes[categorical_features_indices])
-
-
+    for c in category_list:
+        all_data[c]=all_data[c].astype('category')
+    
     F1_scores=[]
     delete_cols=[]
     for i in range(3):
-        model, F1_score = train_model_validation(X_train[i], y_train[i], X_test[i], y_test[i], th, categorical_features_indices,param_cat)
-        delete_col = permutation_test(model,X_test[i],y_test[i],categorical_features_indices)
+        X_train,y_train,X_test,y_test,train_data_txkey,test_data_txkey=parse_validation(all_data,i,delete_list)
+        # Train on catboost
+        categorical_features_indices = np.where(X_train.columns.isin(category_list))[0]
+        
+        model, F1_score = train_model_validation(X_train, y_train, X_test, y_test, th, categorical_features_indices,param_cat)
+        delete_col = permutation_test(model,X_test,y_test,categorical_features_indices)
         F1_scores.append(F1_score)
         delete_cols.append(delete_col)
         
         # ## write csv
-        X_train_pred = model.predict_proba(X_train[i])[:,1]
-        X_test_pred = model.predict_proba(X_test[i])[:,1]
+        X_train_pred = model.predict_proba(X_train)[:,1]
+        X_test_pred = model.predict_proba(X_test)[:,1]
         X_train_pred[X_train_pred>th]=1
         X_train_pred[X_train_pred<=th]=0
         X_test_pred[X_test_pred>th]=1
@@ -238,8 +234,8 @@ def main():
         print('delete_col3:\n{}'.format(delete_cols[2]),file=f)
         print('Inner delete_col:\n{}'.format(delete_col2),file=f)
         print('\n',file=f)
-    
-    train_model_all(X_train[3],y_train[3],X_test[3],test_data_txkey,th,categorical_features_indices,param_cat,submit_file_name)
+    X_train,y_train,X_test,y_test,train_data_txkey,test_data_txkey=parse_validation(all_data,3,delete_list)
+    train_model_all(X_train,y_train,X_test,test_data_txkey,th,categorical_features_indices,param_cat,submit_file_name)
     
 if __name__ == '__main__':
     main()  # 或是任何你想執行的函式

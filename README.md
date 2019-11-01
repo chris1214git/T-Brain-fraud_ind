@@ -32,7 +32,6 @@ https://github.com/microsoft/LightGBM/tree/master/examples/python-guide
 
 Kaggle:
 https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions?fbclid=IwAR0GXWSIn0YnoqLgNPud7pE2Nz1WbH4yAskm2_qYM7kZ_6fWbYERj22MAIs
-
 https://www.kaggle.com/c/ieee-fraud-detection/discussion/111321
 frequency encoding,切四種validation,permutation test將四次validation都沒有變好的特徵刪除
 
@@ -65,7 +64,14 @@ http://tmuxcheatsheet.com/
 因為我是獨立作業，所以用到的指令很少，最多遇到的問題只有不小心上傳超過100MB的檔案，但這些常見問題google一下就有答案了
 https://www.alexkras.com/getting-started-with-git/
 
+
 ## 比賽技巧:
+
+我記得把資料前處理好丟進lightgbm訓練，基本的f1分數只有0.45，算是蠻低的。原因多半是原始資料都是種類很多的類別型資料，很多序號類的特徵，以及有時間序列的問題，
+1. 很多序號類型的特徵，這類特徵在test data出現很多train data沒有出現的類別。
+2. 是時間序列的資料，建模和做特徵時要注意會不會有leakage和分布相不相同
+
+
 > EDA(exploratory data analysis):
 1. 比較train, validation data, test data各個feature的分佈，看各個feature是否會隨時間不同而改變
 ->見 function compare_distribution
@@ -111,28 +117,8 @@ loctm_hr2
 
 > ensamble:
 
-
-## 比賽心得:
-> 在北京念書，想做點實際的project所以報了這個比賽。
-這份資料幾乎都是類別資料，由於資料數多於一百萬，用xgboost太慢，所以選了catboost，catboost的cat是指category(類別)，感覺就很適合這份資料? 但我沒有很理解catboost的詳細算法，所以也不是很清楚，希望比賽做完前可以了解。
-
-這次做比賽就是希望把平常聽到的做法用出來，從資料的前處理、分析、特徵工程到建模、ensamble。因為可以試的方法蠻多的，如何把這個project的pipeline寫的簡潔格式化也是一個挑戰。
-比賽技巧:
-我記得把資料前處理好丟進lightgbm訓練，基本的f1分數只有0.45，算是蠻低的。原因多半是原始資料都是種類很多的類別型資料，很多序號類的特徵，以及有時間序列的問題，
-1. 很多序號類型的特徵，這類特徵在test data出現很多train data沒有出現的類別。
-2. 是時間序列的資料，建模和做特徵時要注意會不會有leakage和分布相不相同
-
-
-
-
 * 貝葉斯調參
-* logistic regression
-* random forest
-* matplotlib、seaborn
-* lightgbm
-* catboost
-* validation
-* encoding
+
 
 關於工具的學習:
 https://xkcd.com/353/
@@ -157,15 +143,13 @@ transformation:
 https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
 
 scikit
-玩玩裡面不同的套件，看他們是幹什麼用的，然後嘗試用進這個project中
+玩玩裡面不同的模型，看他們是幹什麼用的，然後嘗試用進這個project中
 https://scikit-learn.org/stable/modules/classes.html#
 
 
-
-關於身體健康:
-
-關於比賽心態:
-
+## 比賽心得:
+> 在北京念書，想做點實際的project所以報了這個比賽。
+這次做比賽就是希望把平常聽到的做法用出來，從資料的前處理、分析、特徵工程到建模、ensamble。玩玩各種python套件、邊train邊學各種演算法，然後看些blog、kaggle討論或youtuber，是個很有趣的過程。
 
 
 
