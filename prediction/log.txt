@@ -131,3 +131,13 @@ F1_score: 0.5852915578764143 0.615300012220457 0.6173083533860433
 average F1_score: 0.6059666411609715
 
 
+submit_cat_time1111_741.csv
+data list data_list_FE_AN3
+delete_list: delete_list_overfit5
+th: 0.37
+iteration: 2500
+l2_leaf_reg: 5.0
+F1_score: 0.5920822397200349 0.6186882630836247 0.6129270946681176
+average F1_score: 0.6078991991572591
+
+
