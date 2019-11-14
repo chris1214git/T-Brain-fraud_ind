@@ -141,3 +141,65 @@ F1_score: 0.5920822397200349 0.6186882630836247 0.6129270946681176
 average F1_score: 0.6078991991572591
 
 
+submit_cat_time0113_013025.csv
+data list data_list_FE_AN3
+delete_list: delete_list_overfit1
+th: 0.37
+iteration: 2500
+l2_leaf_reg: 3.0
+F1_score: 0.6175922883119729 0.6202595439082776 0.6257705737810925
+average F1_score: 0.6212074686671144
+
+
+submit_cat_time0113_013025.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN3
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_stscd_mode', 'bacno_csmcu_diff1', 'cano_stscd_nunique', 'bacno_scity_diff2', 'bacno_scity_ismode', 'cano_ecfg_mode', 'bacno_scity_diff3']
+th: 0.37
+iteration: 2500
+l2_leaf_reg: 3.0
+F1_score: 0.6184844502847131 0.6226626776364996 0.6265569107443002
+average F1_score: 0.6225680128885043
+
+
+submit_cat_time0115_0143.csv
+data list data_list_FE_AN4
+delete_list: delete_list_overfit1
+F1_score: 0.6392058420812415 0.6356862745098039 0.6201875837427423
+average F1_score: 0.6316932334445959
+
+
+submit_cat_time0115_0143.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN4
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'insfg', 'bacno_ecfg_equal1', 'bacno_contp_diff2', 'bacno_hcefg_diff2', 'cano_hcefg_diff2', 'cano_contp_mode', 'csmcu_bacno_nunique', 'contp', 'cano_stocn_diff1', 'bacno_ismax_conam', 'cano_acqic_diff3', 'bacno_contp_mode', 'ovrlt', 'bacno_scity_ismode', 'cano_only_consecutive_stscd2', 'csmcu_value_counts_all', 'bacno_stocn_ismode', 'cano_stscd_mode', 'flbmk', 'cano_stocn_ismode', 'bacno_csmcu_ismode', 'cano_lastday_use_twokind', 'bacno_stscd_mode', 'bacno_stscd_equal2', 'bacno_ecfg_mode', 'cano_ecfg_mode', 'cano_stscd_nunique', 'bacno_hcefg_mode']
+F1_score: 0.6408903166590179 0.6378209305356445 0.614948221521837
+average F1_score: 0.6312198229054998
+
+
+submit_cat_time0115_015030.csv
+data list data_list_FE_AN4
+delete_list: delete_list_overfit2
+F1_score: 0.6348914666360399 0.6351510396233817 0.6115308508724591
+average F1_score: 0.6271911190439602
+
+
+submit_cat_time0115_015030.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN4
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'mchno', 'acqic', 'mcc', 'stocn', 'scity', 'csmcu', 'cano_scity_ismode', 'bacno_scity_ismode', 'ovrlt', 'bacno_contp_mode', 'bacno_ismax_conam', 'bacno_ecfg_mode', 'flbmk', 'cano_lastday_use_twokind', 'bacno_hcefg_mode', 'bacno_stocn_ismode', 'bacno_ecfg_equal1', 'bacno_stscd_mode', 'bacno_csmcu_ismode', 'cano_stscd_nunique', 'cano_ecfg_mode', 'bacno_stscd_equal2', 'iterm', 'cano_hcefg_mode']
+F1_score: 0.6332187857961054 0.6360736835253531 0.6143433437920216
+average F1_score: 0.62787860437116
+
+
+submit_cat_time1112_1406.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6529068510914199 0.6517329351004916 0.6346895826025956
+average F1_score: 0.6464431229315023
+
+
+submit_cat_time1112_1406.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'bacno_lastlocdt_shiftm1', 'iterm_shiftm1', 'csmcu_value_counts_all', 'cano_lastlocdt2_shiftm1', 'bacno_stocn_lastday_shift1', 'cano_scity_ismode', 'ovrlt_shiftm1', 'bacno_stocn_lastday_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shiftm1', 'bacno_ecfg_mode', 'flbmk_shiftm1', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'cano_ecfg_mode', 'ovrlt', 'bacno_stscd_mode', 'flbmk', 'cano_lastlocdt2_shift1', 'ovrlt_shift1', 'cano_stscd_nunique', 'cano_only_consecutive_stscd2_shift1', 'flbmk_shift1', 'bacno_ecfg_equal1_shiftm1', 'insfg_shiftm1', 'bacno_hcefg_mode', 'bacno_stocn_ismode', 'bacno_stscd_equal2_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6528407863469432 0.6520009942828734 0.635415753964777
+average F1_score: 0.6467525115315311
+
+
