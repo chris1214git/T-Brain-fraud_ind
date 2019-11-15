@@ -3675,3 +3675,79 @@ bagging_temperature 2.6650472872159017
 
 ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
 ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+depth 6
+max_leaves 31
+l2_leaf_reg 84.05046413121804
+bagging_temperature 1.1516701794552493
+0.623500152711724
+
+depth 5
+max_leaves 31
+l2_leaf_reg 82.76115822030229
+bagging_temperature 0.31055260630835446
+0.6238572050500653
+
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+depth 8
+max_leaves 31
+l2_leaf_reg 41.94306799569485
+bagging_temperature 4.803773081339616
+0.597081729478113
+
+depth 10
+max_leaves 31
+l2_leaf_reg 33.706449096653735
+bagging_temperature 0.06790418399531178
+0.6308115423233072
+
+depth 5
+max_leaves 31
+l2_leaf_reg 13.209509096522027
+bagging_temperature 2.8932011729019234
+0.6044866341288676
+
+depth 5
+max_leaves 31
+l2_leaf_reg 43.26437938451111
+bagging_temperature 2.908727942093997
+0.6067726947819871
+
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+depth 11
+max_leaves 31
+l2_leaf_reg 26.294353549018055
+bagging_temperature 3.290346721084852
+0.6031135367272077
+
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+depth 11
+max_leaves 31
+l2_leaf_reg 54.10741039667933
+bagging_temperature 1.427115343169354
+0.624505581436231
+
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']

@@ -32,7 +32,7 @@ with open(path,'r',encoding='utf-8') as f:
     para = json.loads(f.read())
     
 data_list= para['data_list_FE_AN7']
-delete_list = para['delete_list_overfit2']
+delete_list = para['delete_list_overfit1']
 
 def load_data(data_list):
     data=[]
@@ -119,7 +119,7 @@ param_cat={
     'random_seed':random_seed,
     'thread_count':1,
     'task_type':"GPU",
-    'devices':'0:1',
+    'devices':'0-2',
     'verbose':20,
 
     'learning_rate':0.03,

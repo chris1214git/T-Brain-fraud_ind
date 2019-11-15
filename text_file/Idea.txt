@@ -1,0 +1,49 @@
+Help:
+將使用者分類來訓練模型:
+1.根據cano的個數分類
+2.根據txkey的個數分類
+3.根據stocn的眾數分類
+
+fine tune:
+用testdata再train一次?
+
+EDA:
+檢查哪些特徵在test 上明顯多過train
+就用上面講的四種方式檢查
+並盡量畫圖去分析這個特徵是好是壞
+
+分析模型誤判的資料大多為哪些
+
+
+ME TODO:
+用各種feature importance的方法去刪除feature然後再train一次，且存下delete_list結果(取三次結果都是爛的)
+用object importance刪掉爛的train data
+
+特徵工程:
+cano在前幾後幾天的消費紀錄
+
+用這個觀察feature有沒有問題
+https://catboost.ai/docs/concepts/python-reference_catboostclassifier_calc_feature_statistics.html
+
+用這個去除掉有問題的train data再重train
+https://catboost.ai/docs/concepts/python-reference_catboostclassifier_get_object_importance.html
+https://github.com/catboost/tutorials/blob/master/model_analysis/object_importance_tutorial.ipynb
+
+
+把過程中用到的工具原理都記錄下來
+觀察feature importance製作類似feature
+
+前處理:
+scikit learn preprocessing的各種轉換應用的地方(svm,pca,tree)
+bayesian調參
+xgboost,catboost,lightgbm數學原理和優勢
+numpy進階教學
+
+
+
+
+
+
+
+
+

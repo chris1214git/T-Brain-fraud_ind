@@ -151,6 +151,19 @@ https://scikit-learn.org/stable/modules/classes.html#
 > 在北京念書，想做點實際的project所以報了這個比賽。
 這次做比賽就是希望把平常聽到的做法用出來，從資料的前處理、分析、特徵工程到建模、ensamble。玩玩各種python套件、邊train邊學各種演算法，然後看些blog、kaggle討論或youtuber，是個很有趣的過程。
 
+> 發現自己code寫得很屎，延展性很差，要加點什麼新方法時要改很多地方，且很多重複用到的類似code要找蠻久的，變數命名、註解、coding style都有待加強==
+總之可以有問題的地方都有問題
+
+
+## 目標:
+自己設定一些目標，期許在這次project做到
+好的coding style，PEP8形式，整齊的變數命名方式
+可重複利用的code，把人工控制的變數用json檔形式輸入，可延展性增加，做好資料夾的分類，客製的套件
+做好model，submit file的管理，方便往後blending
+不同套件的靈活運用
+將Idea及EDA結果良好紀錄分析
+將歷程記錄在readme，提供往日快速回顧
+
 
 
 

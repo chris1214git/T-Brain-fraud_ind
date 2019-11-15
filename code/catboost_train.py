@@ -80,8 +80,12 @@ for c in bool_list:
 X_train1 = all_data[all_data['locdt']<=60].drop(columns=delete_list)
 y_train1 = all_data[all_data['locdt']<=60]['fraud_ind']
 X_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)].drop(columns=delete_list)
-
 y_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)]['fraud_ind']
+
+X_train1 = all_data[all_data['locdt']<=30].drop(columns=delete_list)
+y_train1 = all_data[all_data['locdt']<=30]['fraud_ind']
+X_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)].drop(columns=delete_list)
+y_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)]['fraud_ind']
 
 categorical_features_indices = np.where(X_train1.columns.isin(category_list))[0]
 print(X_train1.dtypes[categorical_features_indices])
