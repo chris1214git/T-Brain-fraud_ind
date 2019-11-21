@@ -34,3 +34,129 @@ Inner delete_col:
 ['cano_lastday_use_twokind', 'bacno_lastlocdt_shiftm1', 'iterm_shiftm1', 'csmcu_value_counts_all', 'cano_lastlocdt2_shiftm1', 'bacno_stocn_lastday_shift1', 'cano_scity_ismode', 'ovrlt_shiftm1', 'bacno_stocn_lastday_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shiftm1', 'bacno_ecfg_mode', 'flbmk_shiftm1', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'cano_ecfg_mode', 'ovrlt', 'bacno_stscd_mode', 'flbmk', 'cano_lastlocdt2_shift1', 'ovrlt_shift1', 'cano_stscd_nunique', 'cano_only_consecutive_stscd2_shift1', 'flbmk_shift1', 'bacno_ecfg_equal1_shiftm1', 'insfg_shiftm1', 'bacno_hcefg_mode', 'bacno_stocn_ismode', 'bacno_stscd_equal2_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
 
 
+submit_cat_time1116_0139.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['bacno_scity_ismode', 'csmcu_cano_nunique', 'hcefg_shift1', 'bacno_lastlocdt_shiftm1', 'iterm', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ismax_conam', 'cano_lastday_use_twokind_shiftm1', 'bacno_csmcu_lastday_shift1', 'bacno_stocn_lastday_shift1', 'flbmk', 'cano_lastlocdt2_shiftm1', 'cano_csmcu_ismode', 'cano_only_consecutive_stscd2', 'bacno_stscd_equal2', 'cano_stscd_mode', 'bacno_csmcu_ismode', 'bacno_lastlocdt_shift1', 'cano_ecfg_mode', 'ovrlt', 'cano_stscd_nunique', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'bacno_ecfg_mode', 'cano_lastday_use_twokind', 'flbmk_shift1', 'bacno_hcefg_mode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stocn_ismode', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'insfg_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1117_1704.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['bacno_stocn_ismode', 'cano_lastday_use_shiftm1', 'csmcu_value_counts_all', 'cano_lastday_use_twokind', 'bacno_csmcu_lastday_shiftm1', 'csmcu_cano_nunique', 'bacno_stocn_lastday_shiftm1', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'flg_3dsmk_shiftm1', 'hcefg_shift1', 'bacno_scity_ismode', 'ovrlt', 'cano_only_consecutive_stscd2_shiftm1', 'flbmk_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_hcefg_mode', 'cano_lastday_use_twokind_shiftm1', 'cano_only_consecutive_stscd2', 'iterm_shiftm1', 'ovrlt_shift1', 'flbmk_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_stscd_equal2', 'bacno_stscd_mode', 'cano_ecfg_mode', 'flbmk', 'bacno_ecfg_equal1', 'hcefg_shiftm1', 'cano_lastlocdt2_shiftm1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'iterm_shift1', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shiftm1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1117_1833.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['contp_shift1', 'bacno_ismax_conam', 'ovrlt_shift1', 'cano_csmcu_ismode', 'bacno_contp_mode', 'bacno_stocn_lastday_shiftm1', 'bacno_stscd_equal2', 'flg_3dsmk_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'flg_3dsmk_shiftm1', 'csmcu_value_counts_all', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'cano_stocn_ismode', 'bacno_ecfg_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'hcefg_shift1', 'flbmk_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'ovrlt', 'bacno_csmcu_lastday_shift1', 'iterm_shift1', 'cano_stscd_mode', 'iterm_shiftm1', 'cano_lastlocdt2_shift1', 'flbmk_shift1', 'bacno_stscd_mode', 'bacno_hcefg_mode', 'cano_lastday_use_twokind', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'bacno_stocn_ismode', 'flbmk', 'cano_only_consecutive_stscd2_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shiftm1', 'cano_stscd_nunique', 'insfg_shift1', 'cano_contp_mode', 'ovrlt_shiftm1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1117_2000.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['bacno_consecutive_and_only_ecfg_shift1', 'bacno_stocn_lastday_shiftm1', 'bacno_ecfg_equal1_shift1', 'bacno_scity_ismode', 'flg_3dsmk_shiftm1', 'csmcu_cano_nunique', 'contp_shift1', 'cano_lastday_use_shiftm1', 'bacno_stocn_lastday_shift1', 'bacno_lastlocdt_shiftm1', 'iterm_shift1', 'cano_csmcu_ismode', 'bacno_csmcu_ismode', 'bacno_stscd_equal2', 'cano_only_consecutive_stscd2_shiftm1', 'cano_lastlocdt2_shiftm1', 'cano_only_consecutive_stscd2', 'flbmk_shift1', 'bacno_csmcu_lastday_shift1', 'flbmk', 'ovrlt_shift1', 'cano_ecfg_mode', 'bacno_ecfg_equal1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind', 'cano_contp_mode', 'cano_stscd_mode', 'cano_stscd_nunique', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_stscd_mode', 'hcefg_shiftm1', 'iterm_shiftm1', 'ovrlt', 'bacno_ecfg_mode', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_equal2_shiftm1', 'insfg_shiftm1', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1']
+
+
+submit_cat_time1117_2127.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['csmcu', 'bacno_lastlocdt_shiftm1', 'cano_lastday_use_shiftm1', 'bacno_csmcu_lastday_shiftm1', 'contp_shiftm1', 'csmcu_cano_nunique', 'cano_only_consecutive_stscd2', 'ecfg_shiftm1', 'cano_lastday_use_twokind', 'flbmk_shiftm1', 'bacno_contp_mode', 'csmcu_value_counts_all', 'bacno_stscd_equal2', 'iterm_shift1', 'cano_ecfg_mode', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'cano_only_consecutive_stscd2_shiftm1', 'cano_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'cano_stscd_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_scity_ismode', 'bacno_stocn_lastday_shiftm1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_csmcu_ismode', 'cano_lastday_use_shift1', 'bacno_ecfg_mode', 'flbmk_shift1', 'ovrlt_shift1', 'flbmk', 'bacno_hcefg_mode', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'cano_lastday_use_twokind_shift1', 'ovrlt', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_stocn_ismode', 'hcefg_shift1', 'cano_stscd_nunique', 'iterm_shiftm1', 'insfg_shift1', 'insfg_shiftm1', 'iterm', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1117_2254.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature2.csv', 'isolationtree_feature2.csv', 'kmeans_feature2.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['bacno_lastlocdt_shiftm1', 'cano_lastday_use_shiftm1', 'cano_stocn_ismode', 'cano_scity_ismode', 'cano_only_consecutive_stscd2_shiftm1', 'cano_lastlocdt2_shiftm1', 'flg_3dsmk_shift1', 'ovrlt', 'csmcu_value_counts_all', 'bacno_consecutive_and_only_ecfg_shiftm1', 'bacno_ismax_conam', 'bacno_stocn_lastday_shift1', 'bacno_stscd_equal2', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'bacno_csmcu_lastday_shift1', 'cano_lastday_use_twokind', 'bacno_ecfg_mode', 'cano_stscd_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'iterm_shift1', 'ovrlt_shift1', 'cano_lastday_use_shift1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_stocn_ismode', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_equal1', 'insfg_shift1', 'bacno_csmcu_ismode', 'cano_ecfg_mode', 'flbmk', 'cano_csmcu_ismode', 'bacno_stscd_mode', 'bacno_stscd_equal2_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'cano_stscd_nunique', 'insfg_shiftm1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_hcefg_mode', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1118_0218.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1118_1007.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data10.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['flg_3dsmk_shiftm1', 'cano_contp_mode', 'iterm', 'cano_lastday_use_twokind', 'csmcu_value_counts_all', 'cano_ecfg_mode', 'flbmk_shiftm1', 'bacno_csmcu_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'csmcu_bacno_nunique', 'bacno_stocn_lastday_shiftm1', 'leakage_complex1', 'bacno_ismax_conam', 'bacno_scity_ismode', 'ecfg', 'ovrlt_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_consecutive_and_only_ecfg_shiftm1', 'flg_3dsmk_shift1', 'bacno_stocn_lastday_shift1', 'flbmk', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_csmcu_ismode', 'hcefg_shiftm1', 'hcefg', 'leakage_complex2', 'cano_stscd_mode', 'cano_csmcu_ismode', 'bacno_consecutive_and_only_ecfg', 'cano_only_consecutive_stscd2', 'cano_lastlocdt2', 'cano_lastday_use_shift1', 'bacno_stscd_mode', 'cano_lastlocdt2_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_ecfg_mode', 'bacno_hcefg_mode', 'cano_lastday_use_twokind_shift1', 'cano_lastday_use_twokind_shiftm1', 'ovrlt', 'flbmk_shift1', 'bacno_stocn_ismode', 'bacno_stscd_equal2_shiftm1', 'cano_stscd_nunique', 'bacno_ecfg_equal1', 'ovrlt_shiftm1', 'insfg_shiftm1', 'bacno_ecfg_equal1_shift1', 'bacno_stscd_equal2', 'iterm_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1']
+
+
+submit_cat_time1118_1216.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data10.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['bacno_stocn_lastday_shiftm1', 'bacno_scity_ismode', 'cano_contp_mode', 'csmcu_value_counts_all', 'cano_csmcu_ismode', 'ovrlt_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'csmcu_bacno_nunique', 'cano_stocn_ismode', 'flg_3dsmk_shift1', 'bacno_consecutive_and_only_ecfg_shiftm1', 'flbmk_shiftm1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'flbmk', 'cano_stscd_mode', 'bacno_stocn_ismode', 'ovrlt', 'bacno_lastlocdt_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2', 'bacno_csmcu_ismode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'leakage_complex2', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'cano_ecfg_mode', 'cano_lastday_use_twokind_shiftm1', 'iterm_shiftm1', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shiftm1', 'bacno_hcefg_mode', 'bacno_ecfg_equal1', 'insfg_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1119_0207.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+Inner delete_col:
+['cano_lastday_use_twokind', 'csmcu_cano_nunique', 'csmcu_value_counts_all', 'cano_lastlocdt2_shiftm1', 'cano_csmcu_ismode', 'bacno_lastlocdt_shiftm1', 'contp_shift1', 'bacno_stocn_lastday_shift1', 'ovrlt', 'bacno_contp_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_ismax_conam', 'bacno_stocn_lastday_shiftm1', 'bacno_stscd_equal2', 'cano_ecfg_mode', 'cano_only_consecutive_stscd2_shiftm1', 'cano_only_consecutive_stscd2', 'bacno_csmcu_lastday_shift1', 'flbmk_shiftm1', 'cano_stocn_ismode', 'cano_lastday_use_shift1', 'flbmk_shift1', 'iterm_shiftm1', 'bacno_lastlocdt_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_stscd_mode', 'ovrlt_shift1', 'flbmk', 'bacno_stocn_ismode', 'ovrlt_shiftm1', 'cano_lastday_use_twokind_shift1', 'cano_stscd_nunique', 'bacno_stscd_mode', 'cano_lastlocdt2_shift1', 'insfg_shiftm1', 'bacno_ecfg_equal1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_equal2_shiftm1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shift1', 'insfg_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1119_1506.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+Inner delete_col:
+['bacno_csmcu_lastday', 'bacno_consecutive_and_only_ecfg_shiftm1', 'ovrlt', 'bacno_hcefg_mode', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'ovrlt_shift1', 'cano_csmcu_ismode', 'cano_ecfg_mode', 'cano_only_consecutive_stscd2', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'contp_shift1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'csmcu_value_counts_all', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastlocdt2_shift1', 'bacno_ecfg_mode', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_equal1', 'cano_stscd_mode', 'bacno_lastlocdt_shift1', 'bacno_stocn_ismode', 'flbmk_shift1', 'bacno_stscd_equal2_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'cano_contp_mode', 'bacno_stscd_mode', 'flbmk', 'cano_stscd_nunique', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'insfg_shiftm1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1120_0559.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate1.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+Inner delete_col:
+['bacno_csmcu_lastday_shiftm1', 'bacno_stocn_lastday_shift1', 'ecfg_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_ecfg_mode', 'flg_3dsmk_shift1', 'bacno_scity_ismode', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shift1', 'bacno_hcefg_mode', 'bacno_csmcu_lastday_shift1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'csmcu_value_counts_all', 'cano_stscd_mode', 'flg_3dsmk_shiftm1', 'ovrlt_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_lastlocdt_shiftm1', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shiftm1', 'flbmk', 'cano_csmcu_ismode', 'cano_stocn_ismode', 'bacno_stscd_mode', 'bacno_lastlocdt_shift1', 'cano_stscd_nunique', 'cano_ecfg_mode', 'ovrlt_shiftm1', 'iterm_shiftm1', 'cano_contp_mode', 'insfg_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1120_1717.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+Inner delete_col:
+['bacno_contp_mode', 'flbmk_shift1', 'ovrlt_shift1', 'bacno_stocn_lastday_shiftm1', 'cano_only_consecutive_stscd2', 'iterm_shift1', 'cano_contp_mode', 'ovrlt', 'flbmk_shiftm1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shift1', 'cano_ecfg_mode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'bacno_ecfg_equal1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_twokind_shift1', 'cano_stscd_mode', 'iterm_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'hcefg_shiftm1', 'cano_csmcu_ismode', 'cano_stscd_nunique', 'bacno_ecfg_mode', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shiftm1', 'bacno_lastlocdt_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_stscd_mode', 'flbmk', 'bacno_hcefg_mode', 'insfg_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+
+submit_cat_time1121_0442.csv
+PredictionValuesChange
+data list ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+delete_list:
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+Inner delete_col:
+['contp_shift1', 'bacno_ismax_conam', 'bacno_csmcu_lastday', 'bacno_consecutive_and_only_ecfg_shift1', 'cano_scity_ismode', 'flbmk_shiftm1', 'cano_lastday_use_shiftm1', 'ovrlt', 'cano_ecfg_mode', 'bacno_stocn_lastday_shift1', 'hcefg_shift1', 'bacno_csmcu_lastday_shift1', 'flbmk_shift1', 'csmcu_value_counts_all', 'cano_csmcu_ismode', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'bacno_stscd_equal2', 'csmcu_bacno_nunique', 'cano_lastday_use_twokind_shift1', 'ovrlt_shift1', 'flbmk', 'cano_stscd_mode', 'cano_contp_mode', 'cano_lastday_use_twokind_shiftm1', 'bacno_lastlocdt_shift1', 'hcefg_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'bacno_ecfg_mode', 'bacno_ecfg_equal1', 'bacno_lastlocdt_shiftm1', 'insfg_shiftm1', 'ovrlt_shiftm1', 'bacno_stscd_mode', 'bacno_stscd_equal2_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+
+

@@ -15,7 +15,7 @@ path = '../code/para_dict/data_list.json'
 with open(path,'r',encoding='utf-8') as f:
     para = json.loads(f.read())
     
-data_list= para['data_list_FE_AN7']
+data_list= para['data_list_FE_AN9']
 delete_list = para['delete_list_overfit1']
 
 def load_data(data_list):
@@ -101,17 +101,12 @@ param_cat={
     'thread_count':1,
     'task_type':"GPU",
     'devices':'0:1',
-    'verbose':20,
-    'boosting_type':'Ordered',
+#     'boosting_type':'Ordered',
 
-    # 'min_data_in_leaf':1,
-    # 'has_time':True,
-
-    'learning_rate':0.1,
+    'learning_rate':0.03,
     'l2_leaf_reg':20,#20
     'depth':7,
-#     'max_leaves':31,
-    'bagging_temperature':0.3,#10
+    'bagging_temperature':0.3,
     'random_strength':10,
     # 'rsm':0.8,
 
@@ -121,13 +116,44 @@ param_cat={
     # 'leaf_estimation_backtracking':'Armijo',
     
     'one_hot_max_size':200,
-#     'grow_policy':'Lossguide',
+    'grow_policy':'Lossguide',
 }
 
+param_cat={
+    'loss_function':'Logloss',
+    'eval_metric':'F1',
+    
+    'iterations':10000,
+    'scale_pos_weight':1,
+    'target_border':0.5,
+    'random_seed':random_seed,
+    'thread_count':1,
+    'task_type':"GPU",
+    'devices':'0:1',
+#     'boosting_type':'Ordered',
+
+    'learning_rate':0.03,
+    'l2_leaf_reg':20,#20
+    'depth':7,
+    'bagging_temperature':0.3,
+    'random_strength':10,
+    # 'rsm':0.8,
+
+    # 'fold_permutation_block':1,
+    # 'feature_border_type':'MinEntropy',
+    # 'boosting_type':'Ordered',
+    # 'leaf_estimation_backtracking':'Armijo',
+    
+    'one_hot_max_size':200,
+    'grow_policy':'Lossguide',
+}
 
 param_range={
-    'depth':(5,15.9),
-    'max_leaves':(31,31.5),#(20,45),
+#     'depth':(5,11.9),
+    'depth':(5,16.9),
+    
+#     'max_leaves':(31,31.5),#(20,45),
+    'max_leaves':(20,45),
     'l2_leaf_reg':(1,100),#(5,50),
     'bagging_temperature':(0.01,5)#(0.1,5),    
 }
@@ -149,7 +175,7 @@ def cat_train(depth,max_leaves,l2_leaf_reg,bagging_temperature):
     print(int(depth),int(max_leaves),l2_leaf_reg,bagging_temperature)
     print(score_max)
     
-    with open('Bayes_result.txt','a') as f:
+    with open('./Bayes_result/Bayes_result.txt','a') as f:
         print('depth',int(depth),file=f)
         print('max_leaves',int(max_leaves),file=f)
         print('l2_leaf_reg',l2_leaf_reg,file=f)
@@ -159,14 +185,14 @@ def cat_train(depth,max_leaves,l2_leaf_reg,bagging_temperature):
     
     return score_max
 
-with open('Bayes_result.txt','a') as f:
+with open('./Bayes_result/Bayes_result.txt','a') as f:
     print(data_list,file=f)
     print(delete_list,file=f)
     
 cat_opt = BayesianOptimization(cat_train,param_range) 
 cat_opt.maximize(n_iter=150, init_points=random_seed)
 print(cat_opt.max)
-with open('Bayes_result.txt','a') as f:
+with open('./Bayes_result/Bayes_result.txt','a') as f:
     print('Max para',cat_opt.max,file=f)
 
 # model = CatBoostClassifier(**param_cat)

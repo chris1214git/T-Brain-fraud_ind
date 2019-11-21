@@ -22,6 +22,25 @@
                         "FE_data5.csv","FE_data6.csv","FE_data8.csv","FE_data9_3.csv","FE_data9_4.csv","FE_data9_4_2.csv",
                         "FE_data9_5.csv","FE_data9_8.csv","FE_data9_raw.csv",
                             "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv","svm_rbf_feature.csv"],
+    "data_list_FE_AN8":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data2_2.csv","FE_data3.csv","FE_data4.csv","FE_data4_2.csv",
+                        "FE_data5.csv","FE_data6.csv","FE_data8.csv","FE_data9_3.csv","FE_data9_4.csv","FE_data9_4_2.csv",
+                        "FE_data9_5.csv","FE_data9_8.csv","FE_data9_raw.csv",
+                            "pca_feature2.csv","isolationtree_feature2.csv","kmeans_feature2.csv","svm_rbf_feature.csv"],
+    "data_list_FE_AN9":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data2_2.csv","FE_data3.csv","FE_data4.csv","FE_data4_2.csv",
+                        "FE_data5.csv","FE_data6.csv","FE_data8.csv","FE_data9_3.csv","FE_data9_4.csv","FE_data9_4_2.csv",
+                        "FE_data9_5.csv","FE_data9_8.csv","FE_data9_raw.csv","FE_data10.csv",
+                            "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv",
+                        "svm_rbf_feature.csv","svm_poly_feature.csv","svm_sigmoid_feature.csv"],
+    "data_list_FE_AN10":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data2_2.csv","FE_data3.csv","FE_data4.csv","FE_data4_2.csv",
+                        "FE_data5.csv","FE_data6.csv","FE_data8.csv","FE_data9_3.csv","FE_data9_4.csv","FE_data9_4_2.csv",
+                        "FE_data9_5.csv","FE_data9_8.csv","FE_data9_raw.csv",
+                            "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv",
+                        "svm_rbf_feature.csv","svm_poly_feature.csv","svm_sigmoid_feature.csv","kmeans_seperate.csv"],
+    "data_list_FE_AN11":["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data2_2.csv","FE_data3.csv","FE_data4.csv","FE_data4_2.csv",
+                        "FE_data5.csv","FE_data6.csv","FE_data8.csv","FE_data9_3.csv","FE_data9_4.csv","FE_data9_4_2.csv",
+                        "FE_data9_5.csv","FE_data9_8.csv","FE_data9_raw.csv","FE_data11.csv",
+                            "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv",
+                        "svm_rbf_feature.csv","svm_poly_feature.csv","svm_sigmoid_feature.csv","kmeans_seperate.csv"],
     
     "delete_list_raw":["bacno","locdt","loctm","cano","fraud_ind"],
     
@@ -41,6 +60,10 @@
                     "bacno_cano_nunique","bacno_stocn_nunique","bacno_csmcu_nunique","bacno_contp_nunique","bacno_etymd_nunique"],
 
     "delete_list_overfit5":["bacno","locdt","loctm","cano","fraud_ind","mchno_fraud_mean","mcc_fraud_mean","acqic_fraud_mean",
-                    "bacno_lastlocdt","cano_lastlocdt","bacno_stocn_diff2","bacno_csmcu_diff3","insfg","cano_mchno_diff2","bacno_stocn_diff3","bacno_acqic_diff1","bacno_scity_diff2","cano_stocn_ismode","cano_mcc_diff1","bacno_csmcu_diff2","bacno_ismin_conam","bacno_ecfg_diff2","bacno_ecfg_mode","bacno_acqic_diff2","cano_mcc_diff3","bacno_hcefg_diff1","cano_ecfg_diff2","bacno_csmcu_diff1","cano_contp_diff1","cano_hcefg_diff2","cano_scity_ismode","cano_csmcu_diff1","cano_csmcu_diff2","bacno_mchno_diff2","bacno_ecfg_equal1","bacno_ecfg_diff1","cano_scity_diff3","bacno_scity_diff3","cano_etymd_diff3","cano_scity_diff1","cano_acqic_diff1","bacno_scity_ismode","bacno_contp_diff1","bacno_etymd_diff1","bacno_stscd_nunique","cano_stocn_diff2","bacno_stscd_mode","cano_stocn_diff1","bacno_scity_diff1","bacno_acqic_diff3","cano_csmcu_ismode","bacno_mchno_diff3","bacno_hcefg_diff3","cano_mchno_diff3","cano_scity_diff2","cano_mchno_diff1","cano_hcefg_diff1","cano_etymd_diff1","cano_ecfg_mode","cano_ecfg_diff3","cano_contp_diff2","cano_acqic_diff3","bacno_mchno_diff1","bacno_mcc_diff3","bacno_mcc_diff2","bacno_hcefg_diff2","bacno_etymd_diff3","bacno_etymd_diff2","bacno_csmcu_ismode","bacno_contp_diff3"]
+                    "bacno_lastlocdt","cano_lastlocdt","bacno_stocn_diff2","bacno_csmcu_diff3","insfg","cano_mchno_diff2","bacno_stocn_diff3","bacno_acqic_diff1","bacno_scity_diff2","cano_stocn_ismode","cano_mcc_diff1","bacno_csmcu_diff2","bacno_ismin_conam","bacno_ecfg_diff2","bacno_ecfg_mode","bacno_acqic_diff2","cano_mcc_diff3","bacno_hcefg_diff1","cano_ecfg_diff2","bacno_csmcu_diff1","cano_contp_diff1","cano_hcefg_diff2","cano_scity_ismode","cano_csmcu_diff1","cano_csmcu_diff2","bacno_mchno_diff2","bacno_ecfg_equal1","bacno_ecfg_diff1","cano_scity_diff3","bacno_scity_diff3","cano_etymd_diff3","cano_scity_diff1","cano_acqic_diff1","bacno_scity_ismode","bacno_contp_diff1","bacno_etymd_diff1","bacno_stscd_nunique","cano_stocn_diff2","bacno_stscd_mode","cano_stocn_diff1","bacno_scity_diff1","bacno_acqic_diff3","cano_csmcu_ismode","bacno_mchno_diff3","bacno_hcefg_diff3","cano_mchno_diff3","cano_scity_diff2","cano_mchno_diff1","cano_hcefg_diff1","cano_etymd_diff1","cano_ecfg_mode","cano_ecfg_diff3","cano_contp_diff2","cano_acqic_diff3","bacno_mchno_diff1","bacno_mcc_diff3","bacno_mcc_diff2","bacno_hcefg_diff2","bacno_etymd_diff3","bacno_etymd_diff2","bacno_csmcu_ismode","bacno_contp_diff3"],
 
+    "delete_list_overfit6":["bacno","locdt","loctm","cano","fraud_ind","mchno_fraud_mean","mcc_fraud_mean","acqic_fraud_mean",
+    "bacno_lastlocdt","cano_lastlocdt","bacno_mcc_nunique","bacno_contp_nunique","contp_ratio","bacno_etymd_nunique",
+    "cano_mcc_nunique","cano_lastlocdt2","cano_lastday_use","bacno_csmcu_ismode"]
+    
 }

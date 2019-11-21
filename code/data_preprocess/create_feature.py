@@ -23,7 +23,9 @@ print('Now:',t)
 th = 0.37
 
 data_list=['raw_data.csv','FE_data1.csv','FE_data2.csv','FE_data3.csv']
-
+data_list=["raw_data.csv","FE_data1.csv","FE_data2.csv","FE_data2_2.csv","FE_data3.csv","FE_data4.csv","FE_data4_2.csv",
+                        "FE_data5.csv","FE_data6.csv","FE_data8.csv"]
+#                             "pca_feature.csv","isolationtree_feature.csv","kmeans_feature.csv","svm_rbf_feature.csv"]
 ## 除掉一些可能會overfit,distribution不同,受時間影響大的feature
 delete_list1 = ['bacno','locdt','loctm','cano','fraud_ind']
 delete_list2 = ['mchno','acqic','mcc']
@@ -42,7 +44,7 @@ category_list=['csmcu','hcefg','stscd','scity','stocn','mcc','acqic','mchno','et
 def load_data(data_list):
     data=[]
     for d in data_list:
-        x = pd.read_csv('../data/preprocess/{}'.format(d))
+        x = pd.read_csv('../../data/preprocess/{}'.format(d))
         x_null = x.isnull().sum()
         
         print('\n',d,x.shape)
@@ -143,69 +145,73 @@ def main():
             X_train3, y_train3, X_test3, y_test3, X_train_all, y_train_all, X_test_all, test_data_txkey=\
     parse_validation(all_data,delete_list)
 
-#     print('PCA')
-#     pca2_feature = PCA_feature(all_data.drop(columns=delete_list),2)
-#     pca3_feature = PCA_feature(all_data.drop(columns=delete_list),3)
-#     pca2_feature = pd.DataFrame(pca2_feature,columns=['pca2_feature_1','pca2_feature_2'])
-#     pca3_feature = pd.DataFrame(pca3_feature,columns=['pca3_feature_1','pca3_feature_2','pca3_feature_3'])
-#     pca_feature = pd.concat([pca2_feature,pca3_feature],axis=1)
-#     pca_feature.to_csv('../data/preprocess/pca_feature.csv',index=False)
+    print('PCA')
+    pca2_feature = PCA_feature(all_data.drop(columns=delete_list),2)
+    pca3_feature = PCA_feature(all_data.drop(columns=delete_list),3)
+    pca2_feature = pd.DataFrame(pca2_feature,columns=['pca2_feature_1','pca2_feature_2'])
+    pca3_feature = pd.DataFrame(pca3_feature,columns=['pca3_feature_1','pca3_feature_2','pca3_feature_3'])
+    pca_feature = pd.concat([pca2_feature,pca3_feature],axis=1)
+    pca_feature.to_csv('../../data/preprocess/pca_feature2.csv',index=False)
     
-#     print('Isolationtree')
-#     c_ratio = y_train_all.sum()/y_train_all.shape[0]
-#     isolationtree_all_feature = Isolation_all_feature(all_data.drop(columns=delete_list),'auto',c_ratio)
-#     isolationtree_all_feature2 = Isolation_all_feature(all_data.drop(columns=delete_list),0.1,c_ratio)
-#     isolationtree_all_feature3 = Isolation_all_feature(all_data.drop(columns=delete_list),0.4,c_ratio)
-#     isolationtree_all_feature4 = Isolation_all_feature(all_data.drop(columns=delete_list),0.7,c_ratio)
+    print('Isolationtree')
+    c_ratio = y_train_all.sum()/y_train_all.shape[0]
+    isolationtree_all_feature = Isolation_all_feature(all_data.drop(columns=delete_list),'auto',c_ratio)
+    isolationtree_all_feature2 = Isolation_all_feature(all_data.drop(columns=delete_list),0.1,c_ratio)
+    isolationtree_all_feature3 = Isolation_all_feature(all_data.drop(columns=delete_list),0.4,c_ratio)
+    isolationtree_all_feature4 = Isolation_all_feature(all_data.drop(columns=delete_list),0.7,c_ratio)
 
-#     isolationtree_all_feature = pd.DataFrame(isolationtree_all_feature,columns=['isolationtree_all_feature'])
-#     isolationtree_all_feature2 = pd.DataFrame(isolationtree_all_feature2,columns=['isolationtree_all_feature2'])
-#     isolationtree_all_feature3 = pd.DataFrame(isolationtree_all_feature3,columns=['isolationtree_all_feature3'])
-#     isolationtree_all_feature4 = pd.DataFrame(isolationtree_all_feature4,columns=['isolationtree_all_feature4'])
-#     isolationtree_feature = pd.concat([isolationtree_all_feature,isolationtree_all_feature2,
-#                                        isolationtree_all_feature3,isolationtree_all_feature4],axis=1)
+    isolationtree_all_feature = pd.DataFrame(isolationtree_all_feature,columns=['isolationtree_all_feature'])
+    isolationtree_all_feature2 = pd.DataFrame(isolationtree_all_feature2,columns=['isolationtree_all_feature2'])
+    isolationtree_all_feature3 = pd.DataFrame(isolationtree_all_feature3,columns=['isolationtree_all_feature3'])
+    isolationtree_all_feature4 = pd.DataFrame(isolationtree_all_feature4,columns=['isolationtree_all_feature4'])
+    isolationtree_feature = pd.concat([isolationtree_all_feature,isolationtree_all_feature2,
+                                       isolationtree_all_feature3,isolationtree_all_feature4],axis=1)
     
-#     isolationtree_feature.to_csv('../data/preprocess/isolationtree_feature.csv',index=False)
+    isolationtree_feature.to_csv('../../data/preprocess/isolationtree_feature2.csv',index=False)
     
-#     print('kmeans')
-#     kmeans_all_feature1 = Kmeans_all_feature(all_data.drop(columns=delete_list),1)
-#     kmeans_all_feature2 = Kmeans_all_feature(all_data.drop(columns=delete_list),2)
-#     kmeans_all_feature3 = Kmeans_all_feature(all_data.drop(columns=delete_list),3)
-#     kmeans_all_feature4 = Kmeans_all_feature(all_data.drop(columns=delete_list),4)
-#     kmeans_all_feature5 = Kmeans_all_feature(all_data.drop(columns=delete_list),5)
-# #     kmeans_all_feature10 = Kmeans_all_feature(all_data.drop(columns=delete_list),10)
+    print('kmeans')
+    kmeans_all_feature1 = Kmeans_all_feature(all_data.drop(columns=delete_list),1)
+    kmeans_all_feature2 = Kmeans_all_feature(all_data.drop(columns=delete_list),2)
+    kmeans_all_feature3 = Kmeans_all_feature(all_data.drop(columns=delete_list),3)
+    kmeans_all_feature4 = Kmeans_all_feature(all_data.drop(columns=delete_list),4)
+    kmeans_all_feature5 = Kmeans_all_feature(all_data.drop(columns=delete_list),5)
+    kmeans_all_feature10 = Kmeans_all_feature(all_data.drop(columns=delete_list),10)
 # #     kmeans_all_feature20 = Kmeans_all_feature(all_data.drop(columns=delete_list),20)
 # #     kmeans_all_feature30 = Kmeans_all_feature(all_data.drop(columns=delete_list),30)
 
-#     kmeans_all_feature1 = pd.DataFrame(kmeans_all_feature1,columns=['kmeans_all_feature'])
-#     kmeans_all_feature2 = pd.DataFrame(kmeans_all_feature2,columns=['kmeans_all_feature2'])
-#     kmeans_all_feature3 = pd.DataFrame(kmeans_all_feature3,columns=['kmeans_all_feature3'])
-#     kmeans_all_feature4 = pd.DataFrame(kmeans_all_feature4,columns=['kmeans_all_feature4'])
-#     kmeans_all_feature5 = pd.DataFrame(kmeans_all_feature5,columns=['kmeans_all_feature5'])
+    kmeans_all_feature1 = pd.DataFrame(kmeans_all_feature1,columns=['kmeans_all_feature'])
+    kmeans_all_feature2 = pd.DataFrame(kmeans_all_feature2,columns=['kmeans_all_feature2'])
+    kmeans_all_feature3 = pd.DataFrame(kmeans_all_feature3,columns=['kmeans_all_feature3'])
+    kmeans_all_feature4 = pd.DataFrame(kmeans_all_feature4,columns=['kmeans_all_feature4'])
+    kmeans_all_feature5 = pd.DataFrame(kmeans_all_feature5,columns=['kmeans_all_feature5'])
 
 # #     memory error QQ
-# #     kmeans_all_feature10 = pd.DataFrame(kmeans_all_feature10,columns=['kmeans_all_feature10'])
+    kmeans_all_feature10 = pd.DataFrame(kmeans_all_feature10,columns=['kmeans_all_feature10'])
 # #     kmeans_all_feature20 = pd.DataFrame(kmeans_all_feature20,columns=['kmeans_all_feature20'])
 # #     kmeans_all_feature30 = pd.DataFrame(kmeans_all_feature30,columns=['kmeans_all_feature30'])
 #     kmeans_feature = pd.concat([kmeans_all_feature1,kmeans_all_feature2,kmeans_all_feature3,\
 #                                 kmeans_all_feature4,kmeans_all_feature5],axis=1)
+    kmeans_feature = pd.concat([kmeans_all_feature1,kmeans_all_feature2,kmeans_all_feature3,\
+                                kmeans_all_feature4,kmeans_all_feature5,kmeans_all_feature10],axis=1)
+#     kmeans_feature = pd.concat([kmeans_all_feature1,kmeans_all_feature2,kmeans_all_feature3,\
+#                                 kmeans_all_feature5],axis=1)
     
-#     kmeans_feature.to_csv('../data/preprocess/kmeans_feature.csv',index=False)
+    kmeans_feature.to_csv('../../data/preprocess/kmeans_feature2.csv',index=False)
     
-    print('oneclass svm')
+#     print('oneclass svm')
 #     print('rbf')
 #     svm_rbf = one_class_svm(all_data.drop(columns=delete_list),'rbf')
 #     print('linear')
 #     svm_linear = one_class_svm(all_data.drop(columns=delete_list),'linear')
-    print('poly')
-    svm_poly = one_class_svm(all_data.drop(columns=delete_list),'poly')
+#     print('poly')
+#     svm_poly = one_class_svm(all_data.drop(columns=delete_list),'poly')
     
 #     svm_rbf = pd.DataFrame(svm_rbf,columns=['svm_rbf'])
 #     svm_linear = pd.DataFrame(svm_linear,columns=['svm_linear'])
-    svm_poly = pd.DataFrame(svm_poly,columns=['svm_poly'])
+#     svm_poly = pd.DataFrame(svm_poly,columns=['svm_poly'])
     
 #     svm_feature = pd.concat([svm_rbf,svm_linear,svm_poly],axis=1)
-    svm_poly.to_csv('../data/preprocess/svm_poly_feature.csv',index=False)
+#     svm_poly.to_csv('../data/preprocess/svm_poly_feature.csv',index=False)
     
     
     

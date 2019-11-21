@@ -203,3 +203,228 @@ F1_score: 0.6528407863469432 0.6520009942828734 0.635415753964777
 average F1_score: 0.6467525115315311
 
 
+submit_cat_time1116_0139.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6538419736985109 0.6518908089156024 0.6380814590731728
+average F1_score: 0.6479380805624287
+
+
+submit_cat_time1116_0139.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_scity_ismode', 'csmcu_cano_nunique', 'hcefg_shift1', 'bacno_lastlocdt_shiftm1', 'iterm', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ismax_conam', 'cano_lastday_use_twokind_shiftm1', 'bacno_csmcu_lastday_shift1', 'bacno_stocn_lastday_shift1', 'flbmk', 'cano_lastlocdt2_shiftm1', 'cano_csmcu_ismode', 'cano_only_consecutive_stscd2', 'bacno_stscd_equal2', 'cano_stscd_mode', 'bacno_csmcu_ismode', 'bacno_lastlocdt_shift1', 'cano_ecfg_mode', 'ovrlt', 'cano_stscd_nunique', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'bacno_ecfg_mode', 'cano_lastday_use_twokind', 'flbmk_shift1', 'bacno_hcefg_mode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stocn_ismode', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'insfg_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6534782608695652 0.6527690568881074 0.6369415581568679
+average F1_score: 0.6477296253048469
+
+
+submit_cat_time1116_0311.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6529635671560631 0.6526579111944965 0.6388354607448854
+average F1_score: 0.648152313031815
+
+
+submit_cat_time1116_0346.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6556696526108805 0.654710213328299 0.636623433721697
+average F1_score: 0.6490010998869589
+
+
+submit_cat_time1117_1704.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6533923303834808 0.6519010705057217 0.6428663932657026
+average F1_score: 0.649386598051635
+param_cat2
+
+submit_cat_time1117_1704.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_stocn_ismode', 'cano_lastday_use_shiftm1', 'csmcu_value_counts_all', 'cano_lastday_use_twokind', 'bacno_csmcu_lastday_shiftm1', 'csmcu_cano_nunique', 'bacno_stocn_lastday_shiftm1', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'flg_3dsmk_shiftm1', 'hcefg_shift1', 'bacno_scity_ismode', 'ovrlt', 'cano_only_consecutive_stscd2_shiftm1', 'flbmk_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_hcefg_mode', 'cano_lastday_use_twokind_shiftm1', 'cano_only_consecutive_stscd2', 'iterm_shiftm1', 'ovrlt_shift1', 'flbmk_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_stscd_equal2', 'bacno_stscd_mode', 'cano_ecfg_mode', 'flbmk', 'bacno_ecfg_equal1', 'hcefg_shiftm1', 'cano_lastlocdt2_shiftm1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'iterm_shift1', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shiftm1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6519898391193903 0.650208282283754 0.6440312351697657
+average F1_score: 0.6487431188576367
+
+
+submit_cat_time1117_1833.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6519255184088024 0.6529062289459179 0.6440546145869339
+average F1_score: 0.6496287873138847
+param_cat3
+
+submit_cat_time1117_1833.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'contp_shift1', 'bacno_ismax_conam', 'ovrlt_shift1', 'cano_csmcu_ismode', 'bacno_contp_mode', 'bacno_stocn_lastday_shiftm1', 'bacno_stscd_equal2', 'flg_3dsmk_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'flg_3dsmk_shiftm1', 'csmcu_value_counts_all', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'cano_stocn_ismode', 'bacno_ecfg_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'hcefg_shift1', 'flbmk_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'ovrlt', 'bacno_csmcu_lastday_shift1', 'iterm_shift1', 'cano_stscd_mode', 'iterm_shiftm1', 'cano_lastlocdt2_shift1', 'flbmk_shift1', 'bacno_stscd_mode', 'bacno_hcefg_mode', 'cano_lastday_use_twokind', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'bacno_stocn_ismode', 'flbmk', 'cano_only_consecutive_stscd2_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shiftm1', 'cano_stscd_nunique', 'insfg_shift1', 'cano_contp_mode', 'ovrlt_shiftm1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6546648310918141 0.6528541743063196 0.6432044056275007
+average F1_score: 0.6502411370085448
+
+
+submit_cat_time1117_2000.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.654357459379616 0.6529736358062539 0.6401214487096074
+average F1_score: 0.6491508479651591
+param_cat4
+
+submit_cat_time1117_2000.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_stocn_lastday_shiftm1', 'bacno_ecfg_equal1_shift1', 'bacno_scity_ismode', 'flg_3dsmk_shiftm1', 'csmcu_cano_nunique', 'contp_shift1', 'cano_lastday_use_shiftm1', 'bacno_stocn_lastday_shift1', 'bacno_lastlocdt_shiftm1', 'iterm_shift1', 'cano_csmcu_ismode', 'bacno_csmcu_ismode', 'bacno_stscd_equal2', 'cano_only_consecutive_stscd2_shiftm1', 'cano_lastlocdt2_shiftm1', 'cano_only_consecutive_stscd2', 'flbmk_shift1', 'bacno_csmcu_lastday_shift1', 'flbmk', 'ovrlt_shift1', 'cano_ecfg_mode', 'bacno_ecfg_equal1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind', 'cano_contp_mode', 'cano_stscd_mode', 'cano_stscd_nunique', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_stscd_mode', 'hcefg_shiftm1', 'iterm_shiftm1', 'ovrlt', 'bacno_ecfg_mode', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_equal2_shiftm1', 'insfg_shiftm1', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1']
+F1_score: 0.6527983104540656 0.6528819762122599 0.642986934325517
+average F1_score: 0.6495557403306141
+
+
+submit_cat_time1117_2127.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6520634920634921 0.6509832751332475 0.6438291070888591
+average F1_score: 0.6489586247618663
+param_symmetric1
+
+submit_cat_time1117_2127.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'csmcu', 'bacno_lastlocdt_shiftm1', 'cano_lastday_use_shiftm1', 'bacno_csmcu_lastday_shiftm1', 'contp_shiftm1', 'csmcu_cano_nunique', 'cano_only_consecutive_stscd2', 'ecfg_shiftm1', 'cano_lastday_use_twokind', 'flbmk_shiftm1', 'bacno_contp_mode', 'csmcu_value_counts_all', 'bacno_stscd_equal2', 'iterm_shift1', 'cano_ecfg_mode', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'cano_only_consecutive_stscd2_shiftm1', 'cano_csmcu_ismode', 'bacno_csmcu_lastday_shift1', 'cano_stscd_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_scity_ismode', 'bacno_stocn_lastday_shiftm1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_csmcu_ismode', 'cano_lastday_use_shift1', 'bacno_ecfg_mode', 'flbmk_shift1', 'ovrlt_shift1', 'flbmk', 'bacno_hcefg_mode', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'cano_lastday_use_twokind_shift1', 'ovrlt', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_stocn_ismode', 'hcefg_shift1', 'cano_stscd_nunique', 'iterm_shiftm1', 'insfg_shift1', 'insfg_shiftm1', 'iterm', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6520223888478193 0.6512679498930645 0.642992915154657
+average F1_score: 0.6487610846318469
+
+
+submit_cat_time1117_2254.csv
+data list data_list_FE_AN8
+delete_list: delete_list_overfit1
+F1_score: 0.6503996634413126 0.6530011047011169 0.6441129690925503
+average F1_score: 0.6491712457449933
+param_cat4
+
+submit_cat_time1117_2254.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN8
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_lastlocdt_shiftm1', 'cano_lastday_use_shiftm1', 'cano_stocn_ismode', 'cano_scity_ismode', 'cano_only_consecutive_stscd2_shiftm1', 'cano_lastlocdt2_shiftm1', 'flg_3dsmk_shift1', 'ovrlt', 'csmcu_value_counts_all', 'bacno_consecutive_and_only_ecfg_shiftm1', 'bacno_ismax_conam', 'bacno_stocn_lastday_shift1', 'bacno_stscd_equal2', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'bacno_csmcu_lastday_shift1', 'cano_lastday_use_twokind', 'bacno_ecfg_mode', 'cano_stscd_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'iterm_shift1', 'ovrlt_shift1', 'cano_lastday_use_shift1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'bacno_stocn_ismode', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_equal1', 'insfg_shift1', 'bacno_csmcu_ismode', 'cano_ecfg_mode', 'flbmk', 'cano_csmcu_ismode', 'bacno_stscd_mode', 'bacno_stscd_equal2_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'cano_stscd_nunique', 'insfg_shiftm1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_hcefg_mode', 'bacno_ecfg_equal1_shift1']
+F1_score: 0.6530870712401056 0.6521739130434783 0.6441857468104301
+average F1_score: 0.649815577031338
+
+
+submit_cat_time1118_0218.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+F1_score: 0.6517517940059097 0.6526238442226441 0.6437187661554369
+average F1_score: 0.6493648014613302
+
+
+submit_cat_time1118_0218.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'random_seed': 2, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928949776908008, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.05205316105596142, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide'}
+F1_score: 0.652307042550945 0.6531484761497588 0.644950580146111
+average F1_score: 0.6501353662822716
+
+
+submit_cat_time1118_1007.csv
+data list data_list_FE_AN9
+delete_list: delete_list_overfit1
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'random_seed': 2, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928949776908008, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.05205316105596142, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide'}
+F1_score: 0.654945986019911 0.6509115462525321 0.6399930717935395
+average F1_score: 0.6486168680219943
+
+
+submit_cat_time1118_1007.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN9
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'flg_3dsmk_shiftm1', 'cano_contp_mode', 'iterm', 'cano_lastday_use_twokind', 'csmcu_value_counts_all', 'cano_ecfg_mode', 'flbmk_shiftm1', 'bacno_csmcu_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'csmcu_bacno_nunique', 'bacno_stocn_lastday_shiftm1', 'leakage_complex1', 'bacno_ismax_conam', 'bacno_scity_ismode', 'ecfg', 'ovrlt_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_consecutive_and_only_ecfg_shiftm1', 'flg_3dsmk_shift1', 'bacno_stocn_lastday_shift1', 'flbmk', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_csmcu_ismode', 'hcefg_shiftm1', 'hcefg', 'leakage_complex2', 'cano_stscd_mode', 'cano_csmcu_ismode', 'bacno_consecutive_and_only_ecfg', 'cano_only_consecutive_stscd2', 'cano_lastlocdt2', 'cano_lastday_use_shift1', 'bacno_stscd_mode', 'cano_lastlocdt2_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_ecfg_mode', 'bacno_hcefg_mode', 'cano_lastday_use_twokind_shift1', 'cano_lastday_use_twokind_shiftm1', 'ovrlt', 'flbmk_shift1', 'bacno_stocn_ismode', 'bacno_stscd_equal2_shiftm1', 'cano_stscd_nunique', 'bacno_ecfg_equal1', 'ovrlt_shiftm1', 'insfg_shiftm1', 'bacno_ecfg_equal1_shift1', 'bacno_stscd_equal2', 'iterm_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'random_seed': 2, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928949776908008, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.05205316105596142, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide'}
+F1_score: 0.6517734250926417 0.6522324159021406 0.6392603741130939
+average F1_score: 0.6477554050359587
+
+
+submit_cat_time1118_1216.csv
+data list data_list_FE_AN9
+delete_list: delete_list_overfit1
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6540414727041896 0.6538129850930147 0.6417361981756086
+average F1_score: 0.6498635519909376
+
+
+submit_cat_time1118_1216.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN9
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_stocn_lastday_shiftm1', 'bacno_scity_ismode', 'cano_contp_mode', 'csmcu_value_counts_all', 'cano_csmcu_ismode', 'ovrlt_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'csmcu_bacno_nunique', 'cano_stocn_ismode', 'flg_3dsmk_shift1', 'bacno_consecutive_and_only_ecfg_shiftm1', 'flbmk_shiftm1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'bacno_stocn_lastday_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'flbmk', 'cano_stscd_mode', 'bacno_stocn_ismode', 'ovrlt', 'bacno_lastlocdt_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2', 'bacno_csmcu_ismode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'leakage_complex2', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'cano_ecfg_mode', 'cano_lastday_use_twokind_shiftm1', 'iterm_shiftm1', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shiftm1', 'bacno_hcefg_mode', 'bacno_ecfg_equal1', 'insfg_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6539689295594807 0.653779857178035 0.6376497135913903
+average F1_score: 0.648466166776302
+
+
+submit_cat_time1119_0207.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit1
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6545377617939496 0.6519547578067372 0.6441146013117018
+average F1_score: 0.6502023736374629
+
+
+submit_cat_time1119_0207.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu_cano_nunique', 'csmcu_value_counts_all', 'cano_lastlocdt2_shiftm1', 'cano_csmcu_ismode', 'bacno_lastlocdt_shiftm1', 'contp_shift1', 'bacno_stocn_lastday_shift1', 'ovrlt', 'bacno_contp_mode', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_ismax_conam', 'bacno_stocn_lastday_shiftm1', 'bacno_stscd_equal2', 'cano_ecfg_mode', 'cano_only_consecutive_stscd2_shiftm1', 'cano_only_consecutive_stscd2', 'bacno_csmcu_lastday_shift1', 'flbmk_shiftm1', 'cano_stocn_ismode', 'cano_lastday_use_shift1', 'flbmk_shift1', 'iterm_shiftm1', 'bacno_lastlocdt_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_stscd_mode', 'ovrlt_shift1', 'flbmk', 'bacno_stocn_ismode', 'ovrlt_shiftm1', 'cano_lastday_use_twokind_shift1', 'cano_stscd_nunique', 'bacno_stscd_mode', 'cano_lastlocdt2_shift1', 'insfg_shiftm1', 'bacno_ecfg_equal1', 'cano_only_consecutive_stscd2_shift1', 'bacno_stscd_equal2_shiftm1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shift1', 'insfg_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6531517263224581 0.6507294348412407 0.6426374388077807
+average F1_score: 0.6488395333238265
+
+
+submit_cat_time1119_1506.csv
+data list data_list_FE_AN7
+delete_list: delete_list_overfit6
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6552301255230126 0.6520360887588393 0.6448345422550323
+average F1_score: 0.6507002521789614
+
+
+submit_cat_time1119_1506.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN7
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday', 'bacno_consecutive_and_only_ecfg_shiftm1', 'ovrlt', 'bacno_hcefg_mode', 'flg_3dsmk_shiftm1', 'bacno_stocn_lastday_shiftm1', 'ovrlt_shift1', 'cano_csmcu_ismode', 'cano_ecfg_mode', 'cano_only_consecutive_stscd2', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'contp_shift1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'csmcu_value_counts_all', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastlocdt2_shift1', 'bacno_ecfg_mode', 'cano_lastday_use_twokind_shift1', 'bacno_ecfg_equal1', 'cano_stscd_mode', 'bacno_lastlocdt_shift1', 'bacno_stocn_ismode', 'flbmk_shift1', 'bacno_stscd_equal2_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'cano_contp_mode', 'bacno_stscd_mode', 'flbmk', 'cano_stscd_nunique', 'ovrlt_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'insfg_shiftm1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6542564317088475 0.6503966571791922 0.6419838126399173
+average F1_score: 0.6488789671759857
+
+
+submit_cat_time1120_0559.csv
+data list data_list_FE_AN10
+delete_list: delete_list_overfit6
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6582438408085912 0.6537494634864186 0.6416349809885932
+average F1_score: 0.6512094284278677
+
+
+submit_cat_time1120_0559.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN10
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode', 'bacno_csmcu_lastday_shiftm1', 'bacno_stocn_lastday_shift1', 'ecfg_shiftm1', 'bacno_consecutive_and_only_ecfg_shift1', 'bacno_ecfg_mode', 'flg_3dsmk_shift1', 'bacno_scity_ismode', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shift1', 'bacno_hcefg_mode', 'bacno_csmcu_lastday_shift1', 'cano_lastlocdt2_shift1', 'cano_lastday_use_twokind_shiftm1', 'csmcu_value_counts_all', 'cano_stscd_mode', 'flg_3dsmk_shiftm1', 'ovrlt_shift1', 'cano_only_consecutive_stscd2_shift1', 'bacno_lastlocdt_shiftm1', 'cano_lastday_use_shift1', 'cano_lastday_use_twokind_shift1', 'hcefg_shiftm1', 'bacno_stscd_equal2_shiftm1', 'flbmk', 'cano_csmcu_ismode', 'cano_stocn_ismode', 'bacno_stscd_mode', 'bacno_lastlocdt_shift1', 'cano_stscd_nunique', 'cano_ecfg_mode', 'ovrlt_shiftm1', 'iterm_shiftm1', 'cano_contp_mode', 'insfg_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6560354842116379 0.6526817931624976 0.6433439737727547
+average F1_score: 0.6506870837156301
+
+
+submit_cat_time1120_1717.csv
+data list data_list_FE_AN10
+delete_list: delete_list_overfit6
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 10000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6563829787234042 0.6516398476845596 0.6447668661471563
+average F1_score: 0.6509298975183734
+
+
+submit_cat_time1120_1717.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN10
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode', 'bacno_contp_mode', 'flbmk_shift1', 'ovrlt_shift1', 'bacno_stocn_lastday_shiftm1', 'cano_only_consecutive_stscd2', 'iterm_shift1', 'cano_contp_mode', 'ovrlt', 'flbmk_shiftm1', 'bacno_stscd_equal2', 'bacno_csmcu_lastday_shift1', 'cano_only_consecutive_stscd2_shiftm1', 'hcefg_shift1', 'cano_ecfg_mode', 'cano_lastlocdt2_shift1', 'cano_lastday_use_shift1', 'bacno_ecfg_equal1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_twokind_shift1', 'cano_stscd_mode', 'iterm_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'hcefg_shiftm1', 'cano_csmcu_ismode', 'cano_stscd_nunique', 'bacno_ecfg_mode', 'bacno_stscd_equal2_shiftm1', 'ovrlt_shiftm1', 'bacno_lastlocdt_shiftm1', 'bacno_lastlocdt_shift1', 'bacno_stscd_mode', 'flbmk', 'bacno_hcefg_mode', 'insfg_shift1', 'insfg_shiftm1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 10000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6583850931677018 0.6528255528255529 0.6431744662497304
+average F1_score: 0.651461704080995
+
+
+submit_cat_time1121_0442.csv
+data list data_list_FE_AN11
+delete_list: delete_list_overfit6
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 13000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6614561027837259 0.6526835286859962 0.6387448245805186
+average F1_score: 0.6509614853500802
+
+
+submit_cat_time1121_0442.csv feature_importance:PredictionValuesChange
+data list data_list_FE_AN11
+delete_list: ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode', 'contp_shift1', 'bacno_ismax_conam', 'bacno_csmcu_lastday', 'bacno_consecutive_and_only_ecfg_shift1', 'cano_scity_ismode', 'flbmk_shiftm1', 'cano_lastday_use_shiftm1', 'ovrlt', 'cano_ecfg_mode', 'bacno_stocn_lastday_shift1', 'hcefg_shift1', 'bacno_csmcu_lastday_shift1', 'flbmk_shift1', 'csmcu_value_counts_all', 'cano_csmcu_ismode', 'iterm_shiftm1', 'cano_lastday_use_shift1', 'bacno_stscd_equal2', 'csmcu_bacno_nunique', 'cano_lastday_use_twokind_shift1', 'ovrlt_shift1', 'flbmk', 'cano_stscd_mode', 'cano_contp_mode', 'cano_lastday_use_twokind_shiftm1', 'bacno_lastlocdt_shift1', 'hcefg_shiftm1', 'cano_only_consecutive_stscd2_shift1', 'bacno_ecfg_mode', 'bacno_ecfg_equal1', 'bacno_lastlocdt_shiftm1', 'insfg_shiftm1', 'ovrlt_shiftm1', 'bacno_stscd_mode', 'bacno_stscd_equal2_shiftm1', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 13000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6568658783423884 0.6550834970530451 0.6423420700375665
+average F1_score: 0.651430481811
+
+

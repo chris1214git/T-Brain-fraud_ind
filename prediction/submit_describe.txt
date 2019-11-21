@@ -1,0 +1,118 @@
+submit_add_X_test_select_th09_AN7_time1116_1200
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.45369, 'depth': 16, 'max_leaves': 39, 'bagging_temperature': 0.0157004, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 29}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+bagging time 30
+
+submit_add_X_test_select_th90_AN7_time1117_0308
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'learning_rate': 0.03, 'l2_leaf_reg': 33.5015, 'depth': 15, 'max_leaves': 59, 'bagging_temperature': 0.0632, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+bagging time 10
+
+submit_add_X_test_select_th95_AN7_time1117_1333
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.45369, 'depth': 16, 'max_leaves': 39, 'bagging_temperature': 0.0157004, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+bagging time 10
+
+submit_add_X_test_select_th90_AN7_time1117_1430
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.45369, 'depth': 16, 'max_leaves': 39, 'bagging_temperature': 0.0157004, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt']
+bagging time 10
+
+submit_time1118_0337_it6000
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+
+submit_time1118_0419_it7000
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+
+submit_add_X_test_select_th90_AN7_time1118_0904
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+submit_add_X_test_select_th90_AN9_time1118_1428
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data10.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+submit_add_X_test_select_th95_AN7_time1118_1533
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+submit_add_X_test_select_th80_AN7_time1119_1347
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 6000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'cano_lastday_use_twokind', 'csmcu', 'bacno_csmcu_lastday_shiftm1', 'flg_3dsmk_shift1', 'bacno_lastlocdt_shiftm1', 'flbmk_shiftm1', 'contp_shift1', 'flbmk', 'bacno_csmcu_lastday_shift1', 'bacno_lastlocdt_shift1', 'cano_lastlocdt2_shift1', 'cano_lastlocdt2_shiftm1', 'bacno_stscd_equal2', 'bacno_stocn_lastday_shiftm1', 'csmcu_value_counts_all', 'cano_only_consecutive_stscd2_shiftm1', 'bacno_ecfg_mode', 'bacno_stocn_lastday_shift1', 'bacno_consecutive_and_only_ecfg_shift1', 'flbmk_shift1', 'cano_stscd_mode', 'ovrlt', 'cano_only_consecutive_stscd2', 'cano_ecfg_mode', 'cano_csmcu_ismode', 'hcefg_shift1', 'cano_lastday_use_twokind_shiftm1', 'cano_lastday_use_shift1', 'cano_stscd_nunique', 'cano_lastday_use_twokind_shift1', 'bacno_csmcu_ismode', 'insfg_shiftm1', 'ovrlt_shift1', 'bacno_stscd_mode', 'cano_only_consecutive_stscd2_shift1', 'ovrlt_shiftm1', 'bacno_stscd_equal2_shiftm1', 'bacno_hcefg_mode', 'iterm', 'insfg_shift1', 'bacno_stscd_equal2_shift1', 'bacno_ecfg_equal1_shift1']
+bagging time 10
+submit_add_X_test_select_th60_AN10_time1120_1605
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 7000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate1.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+bagging time 10
+submit_add_X_test_select_th60_AN11_time1121_1016
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 12000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+bagging time 10
+submit_add_X_test_select_th60_AN11_time1121_1141
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 8000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+bagging time 10
+submit_add_X_test_select_th90_AN11_time1121_1322
+catboost parameter:
+{'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 12000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0:1', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 9}
+data list
+ ['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+delete list
+ ['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+bagging time 10
