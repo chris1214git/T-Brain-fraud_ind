@@ -7220,3 +7220,817 @@ bagging_temperature 0.11159549445314972
 0.618692093190609
 
 Max para {'target': 0.6256857631081931, 'params': {'bagging_temperature': 0.026715436652313462, 'depth': 6.536865103910303, 'l2_leaf_reg': 61.04602370450226, 'max_leaves': 44.984193664104126}}
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+depth 16
+max_leaves 43
+l2_leaf_reg 90.00560967480091
+bagging_temperature 0.8534800257277162
+0.6404949381327333
+
+['raw_data.csv', 'FE_data1.csv', 'FE_data2.csv', 'FE_data2_2.csv', 'FE_data3.csv', 'FE_data4.csv', 'FE_data4_2.csv', 'FE_data5.csv', 'FE_data6.csv', 'FE_data8.csv', 'FE_data9_3.csv', 'FE_data9_4.csv', 'FE_data9_4_2.csv', 'FE_data9_5.csv', 'FE_data9_8.csv', 'FE_data9_raw.csv', 'FE_data11.csv', 'pca_feature.csv', 'isolationtree_feature.csv', 'kmeans_feature.csv', 'svm_rbf_feature.csv', 'svm_poly_feature.csv', 'svm_sigmoid_feature.csv', 'kmeans_seperate.csv']
+['bacno', 'locdt', 'loctm', 'cano', 'fraud_ind', 'mchno_fraud_mean', 'mcc_fraud_mean', 'acqic_fraud_mean', 'bacno_lastlocdt', 'cano_lastlocdt', 'bacno_mcc_nunique', 'bacno_contp_nunique', 'contp_ratio', 'bacno_etymd_nunique', 'cano_mcc_nunique', 'cano_lastlocdt2', 'cano_lastday_use', 'bacno_csmcu_ismode']
+depth 11
+max_leaves 42
+l2_leaf_reg 16.061225233189816
+bagging_temperature 3.1841012935919366
+0.617056305564702
+
+depth 8
+max_leaves 20
+l2_leaf_reg 32.176589789599056
+bagging_temperature 2.136802402853664
+0.6134794520547946
+
+depth 10
+max_leaves 27
+l2_leaf_reg 97.26618650403253
+bagging_temperature 2.3836390273963373
+0.6266474692656994
+
+depth 13
+max_leaves 35
+l2_leaf_reg 6.635662650038098
+bagging_temperature 3.433148131994404
+0.6134581881533101
+
+depth 11
+max_leaves 25
+l2_leaf_reg 41.01762404944857
+bagging_temperature 0.7794307168830371
+0.6418177747929259
+
+depth 12
+max_leaves 22
+l2_leaf_reg 21.935997795683207
+bagging_temperature 2.575364707215018
+0.620416253716551
+
+depth 5
+max_leaves 20
+l2_leaf_reg 41.48572949167403
+bagging_temperature 4.171126841138266
+0.5588363954505686
+
+depth 6
+max_leaves 44
+l2_leaf_reg 27.422356169450033
+bagging_temperature 4.023735490557503
+0.5899705014749262
+
+depth 14
+max_leaves 40
+l2_leaf_reg 58.388456373493874
+bagging_temperature 1.4825918283498172
+0.6361797752808988
+
+depth 14
+max_leaves 29
+l2_leaf_reg 25.215050997335563
+bagging_temperature 0.7804161707551001
+0.6459682823319187
+
+depth 6
+max_leaves 20
+l2_leaf_reg 69.43666893369905
+bagging_temperature 4.0522049781926475
+0.5902130849127316
+
+depth 15
+max_leaves 23
+l2_leaf_reg 83.47571620519525
+bagging_temperature 2.3909737320730313
+0.6288363877235593
+
+depth 14
+max_leaves 32
+l2_leaf_reg 16.686823859733025
+bagging_temperature 0.1468170299416919
+0.6509645580978017
+
+depth 12
+max_leaves 44
+l2_leaf_reg 52.262373934839495
+bagging_temperature 3.490705331982796
+0.6221925728263286
+
+depth 9
+max_leaves 21
+l2_leaf_reg 35.16674652216194
+bagging_temperature 2.8273172239351076
+0.6143202284208215
+
+depth 12
+max_leaves 27
+l2_leaf_reg 80.56952195954823
+bagging_temperature 4.337134824950314
+0.6050347222222222
+
+depth 13
+max_leaves 33
+l2_leaf_reg 28.055284891451084
+bagging_temperature 0.4849029056699184
+0.6476979948470931
+
+depth 6
+max_leaves 22
+l2_leaf_reg 67.91617095699587
+bagging_temperature 2.0476834058125357
+0.629260734838424
+
+depth 8
+max_leaves 27
+l2_leaf_reg 7.252295918612036
+bagging_temperature 1.0037626783033926
+0.641598383656976
+
+depth 6
+max_leaves 28
+l2_leaf_reg 36.718977913241595
+bagging_temperature 1.2436485179783503
+0.6336877448237269
+
+depth 5
+max_leaves 45
+l2_leaf_reg 100.0
+bagging_temperature 0.01
+0.6423654215099875
+
+depth 5
+max_leaves 43
+l2_leaf_reg 77.15854427058298
+bagging_temperature 0.09444966041474552
+0.6455696202531646
+
+depth 16
+max_leaves 41
+l2_leaf_reg 98.92297111924998
+bagging_temperature 0.01
+0.6479757766064821
+
+depth 5
+max_leaves 44
+l2_leaf_reg 2.0784419049173954
+bagging_temperature 0.41886982735054856
+0.6385150812064966
+
+depth 5
+max_leaves 20
+l2_leaf_reg 90.83542708407865
+bagging_temperature 0.010000022695447506
+0.6447441756771819
+
+depth 15
+max_leaves 20
+l2_leaf_reg 1.9069190101740539
+bagging_temperature 0.17941508587569027
+0.6465722379603399
+
+depth 16
+max_leaves 22
+l2_leaf_reg 99.25067261358892
+bagging_temperature 0.0470104716944342
+0.6480859637340497
+
+depth 15
+max_leaves 44
+l2_leaf_reg 1.4320263318354365
+bagging_temperature 0.0611817826616464
+0.6542182227221598
+
+depth 15
+max_leaves 20
+l2_leaf_reg 68.37798866160493
+bagging_temperature 0.04438628039345126
+0.6460335195530726
+
+depth 6
+max_leaves 30
+l2_leaf_reg 85.8918023437197
+bagging_temperature 0.010207012065325429
+0.6443132449593404
+
+depth 5
+max_leaves 42
+l2_leaf_reg 53.478244501692664
+bagging_temperature 0.08093833714809423
+0.6407260351673284
+
+depth 5
+max_leaves 20
+l2_leaf_reg 1.0
+bagging_temperature 0.01
+0.63997277676951
+
+depth 16
+max_leaves 44
+l2_leaf_reg 81.0092020151552
+bagging_temperature 0.251464379851327
+0.6465507571508694
+
+depth 8
+max_leaves 32
+l2_leaf_reg 69.86951226908032
+bagging_temperature 0.010000001218761318
+0.647361359570662
+
+depth 15
+max_leaves 44
+l2_leaf_reg 99.76806912313384
+bagging_temperature 4.90426721212132
+0.6192240627724499
+
+depth 16
+max_leaves 44
+l2_leaf_reg 38.99174276664487
+bagging_temperature 0.036134494704069736
+0.6502848207304814
+
+depth 9
+max_leaves 21
+l2_leaf_reg 75.63164962553877
+bagging_temperature 0.022293876869212654
+0.6446280991735537
+
+depth 11
+max_leaves 31
+l2_leaf_reg 1.2728322455827437
+bagging_temperature 0.057893544558292896
+0.653217626507382
+
+depth 11
+max_leaves 44
+l2_leaf_reg 90.77322692296515
+bagging_temperature 0.08539162270591004
+0.6448796866256296
+
+depth 16
+max_leaves 44
+l2_leaf_reg 22.346314723506186
+bagging_temperature 0.01000011183560954
+0.6458612975391499
+
+depth 16
+max_leaves 22
+l2_leaf_reg 32.123440967846925
+bagging_temperature 0.03498598825733795
+0.6496644295302014
+
+depth 6
+max_leaves 26
+l2_leaf_reg 60.556759647320206
+bagging_temperature 0.04034750942680102
+0.6468094600624721
+
+depth 16
+max_leaves 31
+l2_leaf_reg 92.3584712936719
+bagging_temperature 0.03122735421737604
+0.6463291987931612
+
+depth 14
+max_leaves 44
+l2_leaf_reg 63.390717736682404
+bagging_temperature 0.01109031120893322
+0.6506618801884676
+
+depth 5
+max_leaves 34
+l2_leaf_reg 15.491055241936316
+bagging_temperature 0.02147261822761328
+0.6448821587157009
+
+depth 10
+max_leaves 44
+l2_leaf_reg 9.709007363405034
+bagging_temperature 0.03824041830954624
+0.6521447721179625
+
+depth 5
+max_leaves 20
+l2_leaf_reg 100.0
+bagging_temperature 0.01
+0.6394268442852344
+
+depth 16
+max_leaves 30
+l2_leaf_reg 37.29223505384569
+bagging_temperature 0.04505535693544465
+0.6482124845903844
+
+depth 16
+max_leaves 44
+l2_leaf_reg 53.04555701839156
+bagging_temperature 0.09805894964831131
+0.649388533602603
+
+depth 11
+max_leaves 44
+l2_leaf_reg 43.19258123539314
+bagging_temperature 0.10176958467051407
+0.6518717776283344
+
+depth 11
+max_leaves 28
+l2_leaf_reg 29.97489768082181
+bagging_temperature 0.05164874299272982
+0.6482974910394266
+
+depth 5
+max_leaves 24
+l2_leaf_reg 69.65518468502941
+bagging_temperature 0.012645548647055199
+0.640885212920532
+
+depth 14
+max_leaves 20
+l2_leaf_reg 88.93847912304805
+bagging_temperature 0.025282135675535597
+0.6443775771759723
+
+depth 12
+max_leaves 20
+l2_leaf_reg 61.857434434848564
+bagging_temperature 0.06728746528613654
+0.6451107630342358
+
+depth 16
+max_leaves 28
+l2_leaf_reg 4.770205622150177
+bagging_temperature 0.017525619272013494
+0.6534320323014805
+
+depth 11
+max_leaves 25
+l2_leaf_reg 67.64224972332411
+bagging_temperature 0.010000281158796252
+0.6463647600854028
+
+depth 5
+max_leaves 34
+l2_leaf_reg 99.86722332239759
+bagging_temperature 0.1484767165834319
+0.6447680325093126
+
+depth 7
+max_leaves 44
+l2_leaf_reg 66.13591586747417
+bagging_temperature 0.016776918826705216
+0.6421875
+
+depth 16
+max_leaves 45
+l2_leaf_reg 6.5444888118330224
+bagging_temperature 0.010000009457758467
+0.6486547337611167
+
+depth 16
+max_leaves 20
+l2_leaf_reg 10.31008126409169
+bagging_temperature 0.04840069125189158
+0.6491168860389245
+
+depth 9
+max_leaves 35
+l2_leaf_reg 45.211375753314236
+bagging_temperature 0.04672114651156095
+0.6501735139370872
+
+depth 13
+max_leaves 39
+l2_leaf_reg 76.70187674993758
+bagging_temperature 0.010672605441758748
+0.6475143081584559
+
+depth 10
+max_leaves 37
+l2_leaf_reg 4.522584397196033
+bagging_temperature 0.012877756980648762
+0.6502695417789758
+
+depth 12
+max_leaves 25
+l2_leaf_reg 9.101976620043404
+bagging_temperature 0.03481361103171076
+0.6513658755038066
+
+depth 16
+max_leaves 32
+l2_leaf_reg 99.78061727994914
+bagging_temperature 0.0746546415231546
+0.6440147535486754
+
+depth 5
+max_leaves 29
+l2_leaf_reg 1.1748330649139869
+bagging_temperature 0.099614132046439
+0.6312146729726612
+
+depth 16
+max_leaves 33
+l2_leaf_reg 1.273834273666695
+bagging_temperature 0.04626272201835322
+0.6569787090233187
+
+depth 7
+max_leaves 20
+l2_leaf_reg 65.26901312555965
+bagging_temperature 0.019333774462089674
+0.6467849223946784
+
+depth 7
+max_leaves 20
+l2_leaf_reg 12.356951981731424
+bagging_temperature 0.03576233150321444
+0.6469994391475041
+
+depth 16
+max_leaves 44
+l2_leaf_reg 69.89534399396308
+bagging_temperature 0.40043642679994357
+0.6481732070365358
+
+depth 11
+max_leaves 39
+l2_leaf_reg 20.104542770229404
+bagging_temperature 0.045281926968522374
+0.6525632415491381
+
+depth 5
+max_leaves 40
+l2_leaf_reg 88.94230330618785
+bagging_temperature 0.05541497351155291
+0.6386004514672686
+
+depth 14
+max_leaves 40
+l2_leaf_reg 1.0870073745635591
+bagging_temperature 0.02008365696771323
+0.657325411949333
+
+depth 16
+max_leaves 39
+l2_leaf_reg 1.0844150735293332
+bagging_temperature 0.09607509459534842
+0.6537765716870195
+
+depth 5
+max_leaves 27
+l2_leaf_reg 94.8092315913863
+bagging_temperature 0.03192316584791105
+0.64198361943229
+
+depth 11
+max_leaves 44
+l2_leaf_reg 1.601116037681197
+bagging_temperature 0.0715111815243948
+0.6558777253315351
+
+depth 11
+max_leaves 39
+l2_leaf_reg 37.45517250684968
+bagging_temperature 0.04081822875979562
+0.6491090440434831
+
+depth 12
+max_leaves 38
+l2_leaf_reg 12.067137531538656
+bagging_temperature 0.012869773624776967
+0.6474027434225319
+
+depth 16
+max_leaves 30
+l2_leaf_reg 1.354876554027917
+bagging_temperature 0.011170763021619413
+0.6498308906426156
+
+depth 7
+max_leaves 44
+l2_leaf_reg 19.034201342891656
+bagging_temperature 0.038647401549769096
+0.6473548820042501
+
+depth 11
+max_leaves 44
+l2_leaf_reg 75.54040198922428
+bagging_temperature 0.03666884668677351
+0.6466703973139339
+
+depth 16
+max_leaves 26
+l2_leaf_reg 81.30960444515782
+bagging_temperature 0.038030740298973846
+0.6459222646596271
+
+depth 16
+max_leaves 20
+l2_leaf_reg 40.13792031580577
+bagging_temperature 0.02096054178182031
+0.6463835952301348
+
+depth 11
+max_leaves 20
+l2_leaf_reg 3.2757539232675965
+bagging_temperature 0.017765454998794995
+0.641356846006964
+
+depth 9
+max_leaves 29
+l2_leaf_reg 19.057647927532226
+bagging_temperature 0.02123515216756648
+0.6468550999888281
+
+depth 16
+max_leaves 44
+l2_leaf_reg 98.91054647157961
+bagging_temperature 0.04404418500942476
+0.6506726457399103
+
+depth 13
+max_leaves 31
+l2_leaf_reg 6.05140671504941
+bagging_temperature 0.015206330861982045
+0.6535654126895002
+
+depth 13
+max_leaves 35
+l2_leaf_reg 1.1478266597514915
+bagging_temperature 0.04993327121335218
+0.6574511126095752
+
+depth 16
+max_leaves 36
+l2_leaf_reg 22.97444146940461
+bagging_temperature 0.05892722769178706
+0.6492369838420108
+
+depth 16
+max_leaves 41
+l2_leaf_reg 44.962013251278066
+bagging_temperature 0.02285294671005548
+0.6483946750195771
+
+depth 16
+max_leaves 44
+l2_leaf_reg 91.47749843002461
+bagging_temperature 0.19309825111816
+0.643991944506601
+
+depth 11
+max_leaves 42
+l2_leaf_reg 99.9381242580452
+bagging_temperature 0.025334066361561134
+0.6470192738682204
+
+depth 11
+max_leaves 39
+l2_leaf_reg 1.413454998340573
+bagging_temperature 0.03747038313086127
+0.6542415000564781
+
+depth 11
+max_leaves 44
+l2_leaf_reg 48.86921480915844
+bagging_temperature 0.07058187851441318
+0.6468809497144137
+
+depth 5
+max_leaves 44
+l2_leaf_reg 41.67270978825082
+bagging_temperature 0.08409736873071506
+0.6356979405034325
+
+depth 5
+max_leaves 35
+l2_leaf_reg 60.23409474166332
+bagging_temperature 0.03928405947698153
+0.64
+
+depth 14
+max_leaves 34
+l2_leaf_reg 2.015532466710743
+bagging_temperature 0.0540725314627309
+0.6488429566389575
+
+depth 16
+max_leaves 26
+l2_leaf_reg 16.20048048001875
+bagging_temperature 0.05371400273880374
+0.6500784577449003
+
+depth 16
+max_leaves 27
+l2_leaf_reg 49.06961958053118
+bagging_temperature 0.05879084070931486
+0.6499383891564915
+
+depth 16
+max_leaves 27
+l2_leaf_reg 8.59251694444593
+bagging_temperature 0.0528073930064102
+0.6529562982005142
+
+depth 14
+max_leaves 44
+l2_leaf_reg 1.4185218330131473
+bagging_temperature 0.032419878443579575
+0.6582392776523702
+
+depth 16
+max_leaves 20
+l2_leaf_reg 99.68028878700353
+bagging_temperature 0.11585612620650142
+0.6425622140386117
+
+depth 10
+max_leaves 30
+l2_leaf_reg 11.851593709219586
+bagging_temperature 0.029487040646474075
+0.647858828818703
+
+depth 13
+max_leaves 44
+l2_leaf_reg 1.1684650966931232
+bagging_temperature 0.08987625986427927
+0.660575296108291
+
+depth 13
+max_leaves 44
+l2_leaf_reg 2.5560829463319585
+bagging_temperature 0.11666362214586237
+0.6564610535794687
+
+depth 15
+max_leaves 44
+l2_leaf_reg 1.0362186575207049
+bagging_temperature 0.11168644103750584
+0.6537289856707661
+
+depth 11
+max_leaves 44
+l2_leaf_reg 1.0665994878581806
+bagging_temperature 0.04921085897960429
+0.6584816400090111
+
+depth 10
+max_leaves 43
+l2_leaf_reg 1.7052305692250889
+bagging_temperature 0.017124486834867874
+0.6570070183382386
+
+depth 10
+max_leaves 44
+l2_leaf_reg 1.1110200528543508
+bagging_temperature 0.09416456270797752
+0.6582392776523702
+
+depth 11
+max_leaves 42
+l2_leaf_reg 1.083935566975546
+bagging_temperature 0.12002232110728195
+0.6572008113590264
+
+depth 10
+max_leaves 43
+l2_leaf_reg 3.1392518889021384
+bagging_temperature 0.02193845100467859
+0.6571428571428571
+
+depth 12
+max_leaves 44
+l2_leaf_reg 3.7969708846463104
+bagging_temperature 0.09927305573648806
+0.6543404735062007
+
+depth 10
+max_leaves 42
+l2_leaf_reg 1.321209552579831
+bagging_temperature 0.021138375131436397
+0.6533423667570009
+
+depth 12
+max_leaves 44
+l2_leaf_reg 15.762471867250609
+bagging_temperature 0.0537660956919515
+0.6486849468382765
+
+depth 12
+max_leaves 44
+l2_leaf_reg 1.8518418516081898
+bagging_temperature 0.02378373625203016
+0.6545413719546423
+
+depth 13
+max_leaves 43
+l2_leaf_reg 1.575334051251856
+bagging_temperature 0.02419872000362014
+0.6499943674664864
+
+depth 12
+max_leaves 44
+l2_leaf_reg 1.0770988067453073
+bagging_temperature 0.05286630494849686
+0.6557635912474622
+
+depth 9
+max_leaves 36
+l2_leaf_reg 24.844238713060403
+bagging_temperature 0.04151114486180936
+0.6505352363960749
+
+depth 13
+max_leaves 43
+l2_leaf_reg 1.1288645417096461
+bagging_temperature 0.10593909752108718
+0.6572653429602888
+
+depth 9
+max_leaves 44
+l2_leaf_reg 3.2412084801637278
+bagging_temperature 0.028164965788426866
+0.652873046216125
+
+depth 13
+max_leaves 42
+l2_leaf_reg 1.2224780683531202
+bagging_temperature 0.039846654555963056
+0.6520163117353874
+
+depth 11
+max_leaves 44
+l2_leaf_reg 1.1911128433976512
+bagging_temperature 0.017376587274880485
+0.6539675383228133
+
+depth 13
+max_leaves 44
+l2_leaf_reg 29.946707732818993
+bagging_temperature 0.05390312487570431
+0.6459890661608837
+
+depth 12
+max_leaves 25
+l2_leaf_reg 89.42769608042252
+bagging_temperature 0.019426041131458897
+0.6441855254313243
+
+depth 13
+max_leaves 44
+l2_leaf_reg 1.009116445769372
+bagging_temperature 0.016004856756423547
+0.657580536156792
+
+depth 11
+max_leaves 43
+l2_leaf_reg 1.1397958755630775
+bagging_temperature 0.010728881185215693
+0.6551297898640297
+
+depth 10
+max_leaves 44
+l2_leaf_reg 1.1437498286393828
+bagging_temperature 0.09738603017246629
+0.6601240834743373
+
+depth 11
+max_leaves 44
+l2_leaf_reg 1.0447378698923742
+bagging_temperature 0.055996494927831035
+0.6561264822134387
+
+depth 16
+max_leaves 20
+l2_leaf_reg 78.46931518164848
+bagging_temperature 0.04580916147653413
+0.6464578421466262
+
+depth 12
+max_leaves 29
+l2_leaf_reg 50.9996917664964
+bagging_temperature 0.02403226621008244
+0.6447412728701314
+
+depth 8
+max_leaves 35
+l2_leaf_reg 77.93699500487214
+bagging_temperature 0.025231739242434024
+0.6493766696349065
+
+depth 13
+max_leaves 44
+l2_leaf_reg 1.0565240149927018
+bagging_temperature 0.03311023754864493
+0.6544018058690746
+
+depth 13
+max_leaves 36
+l2_leaf_reg 1.208074515256289
+bagging_temperature 0.018253976312175162
+0.6542667117574118
+
+depth 11
+max_leaves 44
+l2_leaf_reg 1.005323137081939
+bagging_temperature 0.12289919126176435
+0.6584899291099359
+

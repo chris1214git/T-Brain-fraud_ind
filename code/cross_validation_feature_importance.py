@@ -21,7 +21,7 @@ from util import build_model
 
 para = util.load_json('data_list.json')
 param_cat = util.load_json('catboost_para.json')[sys.argv[3]]
-param_cat['iterations']=13000
+param_cat['iterations']=10000
 data_list= para[sys.argv[1]]
 delete_list = para[sys.argv[2]]
 

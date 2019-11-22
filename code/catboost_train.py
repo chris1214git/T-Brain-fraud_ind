@@ -15,8 +15,8 @@ path = '../code/para_dict/data_list.json'
 with open(path,'r',encoding='utf-8') as f:
     para = json.loads(f.read())
     
-data_list= para['data_list_FE_AN9']
-delete_list = para['delete_list_overfit1']
+data_list= para['data_list_FE_AN11']
+delete_list = para['delete_list_overfit6']
 
 def load_data(data_list):
     data=[]
@@ -82,10 +82,10 @@ y_train1 = all_data[all_data['locdt']<=60]['fraud_ind']
 X_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)].drop(columns=delete_list)
 y_test1 = all_data[(all_data['locdt']>60) & (all_data['locdt']<=90)]['fraud_ind']
 
-X_train1 = all_data[all_data['locdt']<=30].drop(columns=delete_list)
-y_train1 = all_data[all_data['locdt']<=30]['fraud_ind']
-X_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)].drop(columns=delete_list)
-y_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)]['fraud_ind']
+# X_train1 = all_data[all_data['locdt']<=30].drop(columns=delete_list)
+# y_train1 = all_data[all_data['locdt']<=30]['fraud_ind']
+# X_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)].drop(columns=delete_list)
+# y_test1 = all_data[(all_data['locdt']>30) & (all_data['locdt']<=90)]['fraud_ind']
 
 categorical_features_indices = np.where(X_train1.columns.isin(category_list))[0]
 print(X_train1.dtypes[categorical_features_indices])
@@ -123,7 +123,7 @@ param_cat={
     'loss_function':'Logloss',
     'eval_metric':'F1',
     
-    'iterations':10000,
+    'iterations':14000,
     'scale_pos_weight':1,
     'target_border':0.5,
     'random_seed':random_seed,

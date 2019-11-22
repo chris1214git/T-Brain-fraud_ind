@@ -1,8 +1,9 @@
 
 
+
 # T-Brain-fraud_ind
-							Contest Link
-	https://tbrain.trendmicro.com.tw/Competitions/Details/10
+
+    https://tbrain.trendmicro.com.tw/Competitions/Details/10
   
 ## Table of Content
   
@@ -116,16 +117,14 @@ validation的分數幾乎都比leaderboard少了0.03左右，猜測leaderboard�
 我還在努力參透xgboost,lgb,catboost的算法差易，希望我能透徹理解什麼時候該用那些模型。
 
 #### BayesianOptimization:
-[https://github.com/fmfn/BayesianOptimization]
-這次找到的很猛的調參工具，訓練模型速度夠快的話用這個可以調出比人好的結果，使用方法見catboost_train.py
+很猛的[調參工具](https://github.com/fmfn/BayesianOptimization)，訓練模型速度夠快的話用這個可以調出比人好的結果，使用方法見catboost_train.py
 
 #### Ensamble:
 	No Ensamble
 
 #### 關於工具的學習:
-https://xkcd.com/353/
 
-這裡講python套件的學習，python套件很猛，平常想的到會用的運算、演算法、到某個paper的概念幾乎都被包好在某個套件裡，讓我們很幸運地不用一直重新發明一個輪子，而且99%的時間，套件寫同樣演算法的效率會比自己寫的高很多。以資料處理來說，numpy和pandas有很多加快運算的function，像這次比賽資料超過100萬筆，我用for寫一些前處理，跟我用pd.merge寫起來速度大概差了幾十倍，所以說多學著用套件優化後的function肯定好很多。
+[這裡](https://xkcd.com/353/)講python套件的學習，python套件很猛，平常想的到會用的運算、演算法、到某個paper的概念幾乎都被包好在某個套件裡，讓我們很幸運地不用一直重新發明一個輪子，而且99%的時間，套件寫同樣演算法的效率會比自己寫的高很多。以資料處理來說，numpy和pandas有很多加快運算的function，像這次比賽資料超過100萬筆，我用for寫一些前處理，跟我用pd.merge寫起來速度大概差了幾十倍，所以說多學著用套件優化後的function肯定好很多。
 演算法方面，雖然套件不是萬能的，但以目前的我來說，能夠花一分的力氣很快地玩過各種演算法算是很幸福的事，它讓我能在沒有完全理解演算法的情況下大致的測量每種演算法的效果，在邊用的時候邊學它的原理會比待在教室聽課好玩很多。
 
 學習的方法大致就是打開該套件官網看User Guide或API Reference像挖寶藏一樣的看它有哪些功能，有時候看一看會有 啊!這可以用! 的發現，但如果是完全沒接觸過的套件可以找線上教學，先大概理解這個套件在幹嘛，看有沒有人介紹這套件最常用的是那些功能，再看官網的User Guide。
@@ -137,9 +136,9 @@ scikit
 catboost,lightgbm
 
 #### Preprocessing:
-encoding
+* encoding
 http://contrib.scikit-learn.org/categorical-encoding/
-transformation:
+* transformation:
 https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
 
 

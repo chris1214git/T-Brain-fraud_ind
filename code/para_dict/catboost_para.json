@@ -136,6 +136,23 @@
     "one_hot_max_size":200,
     "grow_policy":"Lossguide"
     },
+    "param_catAN11":
+    {
+    "loss_function":"Logloss",
+    "eval_metric":"F1",
+    "iterations":10000,
+    "thread_count":1,
+    "task_type":"GPU",
+    "devices":"0:1",
+    "learning_rate":0.03,
+    "l2_leaf_reg":1.14374,
+    "depth":10,
+    "max_leaves":44,
+    "bagging_temperature": 0.097386,
+    "random_strength":10,
+    "one_hot_max_size":200,
+    "grow_policy":"Lossguide"
+    },
     "param_symmetric1":
     {
     "loss_function":"Logloss",

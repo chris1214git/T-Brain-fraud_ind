@@ -428,3 +428,11 @@ F1_score: 0.6568658783423884 0.6550834970530451 0.6423420700375665
 average F1_score: 0.651430481811
 
 
+submit_cat_time1122_0356.csv
+data list data_list_FE_AN11
+delete_list: delete_list_overfit6
+para: {'loss_function': 'Logloss', 'eval_metric': 'F1', 'iterations': 10000, 'scale_pos_weight': 1, 'target_border': 0.5, 'thread_count': 1, 'task_type': 'GPU', 'devices': '0-2', 'verbose': 20, 'learning_rate': 0.03, 'l2_leaf_reg': 1.5928, 'depth': 15, 'max_leaves': 35, 'bagging_temperature': 0.052, 'random_strength': 10, 'one_hot_max_size': 200, 'grow_policy': 'Lossguide', 'random_seed': 2}
+F1_score: 0.6573798383666525 0.6531213553495795 0.6418661116892127
+average F1_score: 0.6507891018018149
+
+
