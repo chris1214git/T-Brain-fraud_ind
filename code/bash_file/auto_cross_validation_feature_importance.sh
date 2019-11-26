@@ -1,5 +1,0 @@
-# python3 cross_validation_feature_importance.py data_list_FE_AN7 delete_list_overfit1 param_cat2
-python3 cross_validation_feature_importance.py data_list_FE_AN11 delete_list_overfit6 param_cat3_2
-# python3 cross_validation_feature_importance.py data_list_FE_AN7 delete_list_overfit1 param_cat4
-# python3 cross_validation_feature_importance.py data_list_FE_AN7 delete_list_overfit1 param_symmetric1
-# python3 cross_validation_feature_importance.py data_list_FE_AN8 delete_list_overfit1 param_cat4
