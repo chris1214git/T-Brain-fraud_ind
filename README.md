@@ -71,7 +71,7 @@ prediction:
 #### Workstation:
 用工作站肯定要學tmux，沒有為什麼，因為它很猛。最猛的是功能是可以關掉本地的電腦，工作站的程式仍然可以持續執行，可以保留工作狀態，且可以切割自己熟悉的工作畫面。
 * Tmux
-看這個[youtube](https://www.youtube.com/watch?v=nD6g-rM5Bh0&list=PLT98CRl2KxKGiyV1u6wHDV8VwcQdzfuKe)講解，一個小時內就幾乎都懂了，懂了之後的就存個[cheatsheet](http://tmuxcheatsheet.com/)，忘了的時候打開來看看
+看這個[youtube](https://www.youtube.com/watch?v=nD6g-rM5Bh0&list=PLT98CRl2KxKGiyV1u6wHDV8VwcQdzfuKe)講解很讚，之後存個[cheatsheet](http://tmuxcheatsheet.com/)，忘了的時候打開來看看
 
 
 ## Tips:
@@ -102,7 +102,7 @@ prediction:
 切三種validation,利用catboost內部四種feature importance 和permutation test，將三次validation都沒有變好的特徵刪除
 
 #### Anomaly detection:
-因為是盜刷偵測，跟anomaly detection算是蠻相關的，所以我用了一些常用的unsupervised方法做特徵，要記得標準化，都使用scikit，見create_feature.py
+因為是盜刷偵測，跟anomaly detection算是蠻相關的，所以用了一些常用的unsupervised方法做特徵，要記得標準化，都使用scikit，見create_feature.py
 1. isolationforest
 2. oneclass svm
 3. kmeans(分N類，計算離中心的距離)
